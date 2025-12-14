@@ -30,6 +30,49 @@ function normalizeInfo(info = {}) {
   };
 }
 
+function splitReadings(raw) {
+  if (!raw) return [];
+  const s = String(raw).replace(/ /g, " ").trim(); // NBSP -> space
+  // Split by common separators: Japanese comma, comma, semicolon, slash, pipe, or whitespace.
+  return s
+    .split(/(?:[、,;|\/／]+|\s+)/)
+    .map((t) => t.trim())
+    .filter(Boolean);
+}
+
+const CHIP_WRAP_STYLE = {
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "8px",
+  alignItems: "center",
+};
+
+const CHIP_STYLE = {
+  display: "inline-flex",
+  alignItems: "center",
+  padding: "6px 10px",
+  borderRadius: "999px",
+  background: "rgba(255,255,255,0.08)",
+  border: "1px solid rgba(255,255,255,0.16)",
+  color: "#fff",
+  lineHeight: 1.1,
+};
+
+function renderReadingChips(raw) {
+  const parts = splitReadings(raw);
+  if (!parts.length) return "—";
+  return (
+    <div style={CHIP_WRAP_STYLE}>
+      {parts.map((t, idx) => (
+        <span key={`${t}-${idx}`} style={CHIP_STYLE}>
+          {t}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+
 function useEscToClose(isOpen, onClose) {
   useEffect(() => {
     if (!isOpen) return;
@@ -261,8 +304,8 @@ function animateKanjiSvg(svgEl) {
 
   // Tuning (ms)
   // Slower, easier-to-follow animation.
-  const dur = 800;
-  const gap = 500;
+  const dur = 720;
+  const gap = 220;
 
   for (let i = 0; i < paths.length; i++) {
     const p = paths[i];
@@ -530,11 +573,11 @@ export default function App() {
               </div>
               <div className="row">
                 <div className="label">Kun</div>
-                <div className="value">{activeInfo.kun || "—"}</div>
+                <div className="value">{renderReadingChips(activeInfo.kun)}</div>
               </div>
               <div className="row">
                 <div className="label">On</div>
-                <div className="value">{activeInfo.on || "—"}</div>
+                <div className="value">{renderReadingChips(activeInfo.on)}</div>
               </div>
               <div className="row">
                 <div className="label">Bộ</div>
