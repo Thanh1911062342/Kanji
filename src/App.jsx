@@ -72,6 +72,27 @@ function renderReadingChips(raw) {
   );
 }
 
+function stripDiacritics(s) {
+  try {
+    return String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  } catch {
+    return String(s);
+  }
+}
+
+function normalizeLatinForSearch(s) {
+  return stripDiacritics(String(s || ""))
+    .toLowerCase()
+    .replace(/[()（）\[\]{}]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function hasCjkChar(s) {
+  // CJK Unified Ideographs + Compatibility Ideographs.
+  return /[\u3400-\u9FFF\uF900-\uFAFF]/.test(String(s || ""));
+}
+
 
 function useEscToClose(isOpen, onClose) {
   useEffect(() => {
@@ -360,40 +381,59 @@ export default function App() {
     })();
   }, []);
 
-  const items = useMemo(() => {
+  const allItems = useMemo(() => {
     if (!db) return [];
-    const order = db.order || Object.keys(db.items || {});
-    const all = order.map((k) => db.items[k]).filter(Boolean);
+    const itemsMap = db.items || {};
+    const order = db.order || Object.keys(itemsMap);
 
-    const q = query.trim();
-    if (!q) return all;
+    // Keep stable order, but guard against missing keys / duplicates.
+    const seen = new Set();
+    const out = [];
 
-    // Search: kanji char, hanviet input, meaning, readings
-    const qLower = q.toLowerCase();
-    return all.filter((it) => {
-      const info = normalizeInfo(it.info);
-      const haystack = [
-        it.kanji,
-        it.hanviet_input,
-        info.hanViet,
-        info.nghia,
-        info.kun,
-        info.on,
-        info.bo,
-      ]
-        .filter(Boolean)
-        .join(" | ")
-        .toLowerCase();
+    for (const k of order) {
+      const it = itemsMap[k];
+      if (!it) continue;
+      const key = it.kanji || k;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(it);
+    }
 
-      return haystack.includes(qLower);
-    });
-  }, [db, query]);
+    // If some items were not in order, append them (still stable enough).
+    for (const [k, it] of Object.entries(itemsMap)) {
+      if (!it) continue;
+      const key = it.kanji || k;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(it);
+    }
 
-  const totalCount = useMemo(() => {
-    if (!db) return 0;
-    const order = db.order || Object.keys(db.items || {});
-    return order.length;
+    return out;
   }, [db]);
+
+  const items = useMemo(() => {
+    const qRaw = query.trim();
+    if (!qRaw) return allItems;
+
+    // Search rule (per your request):
+    // - If query contains Kanji/CJK: match only by Kanji character.
+    // - Otherwise: match only by Hán-Việt.
+    if (hasCjkChar(qRaw)) {
+      return allItems.filter((it) => String(it.kanji || "").includes(qRaw));
+    }
+
+    const q = normalizeLatinForSearch(qRaw);
+    if (!q) return allItems;
+
+    return allItems.filter((it) => {
+      const info = normalizeInfo(it.info);
+      const hv = normalizeLatinForSearch(it.hanviet_input || "");
+      const hv2 = normalizeLatinForSearch(info.hanViet || "");
+      return hv.includes(q) || hv2.includes(q);
+    });
+  }, [allItems, query]);
+
+  const totalCount = allItems.length;
 
   const openDetail = async (it) => {
     setActiveKanji(it);
@@ -482,7 +522,7 @@ export default function App() {
             className="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search: kanji / hán-việt / nghĩa / kun / on..."
+            placeholder="Search: kanji hoặc hán-việt..."
             inputMode="search"
           />
           <div className="count" title="Số chữ đang hiển thị / tổng số">
