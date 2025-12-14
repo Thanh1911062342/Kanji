@@ -325,8 +325,8 @@ function animateKanjiSvg(svgEl) {
 
   // Tuning (ms)
   // Slower, easier-to-follow animation.
-  const dur = 720;
-  const gap = 220;
+  const dur = 900;
+  const gap = 500;
 
   for (let i = 0; i < paths.length; i++) {
     const p = paths[i];
