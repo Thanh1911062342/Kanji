@@ -1,360 +1,320 @@
+/* Global */
 :root{
   --bg: #0b0f14;
-  --panel: #121822;
-  --panel2: #0f141d;
-  --card: #141b26;
-  --card2: #0e141d;
-  --stroke: rgba(255,255,255,0.08);
+  --surface: rgba(255,255,255,0.06);
+  --surface2: rgba(255,255,255,0.09);
+  --border: rgba(255,255,255,0.12);
   --text: rgba(255,255,255,0.92);
-  --muted: rgba(255,255,255,0.65);
-  --muted2: rgba(255,255,255,0.45);
-  --shadow: 0 10px 30px rgba(0,0,0,0.45);
-  --radius: 16px;
-  --ui: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  --hand: "Klee One", "Yuji Boku", "Hiragino Maru Gothic ProN", "Yu Gothic", "Meiryo", cursive, var(--ui);
+  --muted: rgba(255,255,255,0.60);
+  --accent: rgba(120, 185, 255, 0.9);
 }
 
 *{ box-sizing: border-box; }
 html, body { height: 100%; }
-#root{ height: 100%; }
 body{
-  margin: 0;
-  /* Ink-wash / sketchbook vibe */
-  background:
-    radial-gradient(1200px 700px at 50% -20%, rgba(80,120,255,0.14), transparent 60%),
-    radial-gradient(900px 600px at 20% 10%, rgba(0,255,200,0.07), transparent 55%),
-    radial-gradient(1000px 800px at 90% 30%, rgba(255,120,80,0.06), transparent 55%),
-    repeating-linear-gradient(135deg, rgba(255,255,255,0.025) 0 2px, transparent 2px 8px),
-    var(--bg);
+  margin:0;
+  background: radial-gradient(1000px 600px at 30% 0%, rgba(120,185,255,0.10), transparent 55%),
+              radial-gradient(900px 500px at 70% 20%, rgba(255,180,120,0.10), transparent 55%),
+              var(--bg);
   color: var(--text);
-  font-family: var(--ui);
-  overflow: hidden; /* body never scrolls; inner content scrolls */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", sans-serif;
+  overflow: hidden; /* keep full height, internal scroll */
 }
 
-.page{
+/* App layout (100% height, inner scroll) */
+.appShell{
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  padding: 10px;
-}
-
-/* "Mobile frame" on desktop: keep phone-ish width, no full-browser stretch */
-.phoneFrame{
-  width: min(420px, 100%);
-  height: 100%;
-  position: relative;
-  background:
-    radial-gradient(700px 500px at 30% 0%, rgba(255,255,255,0.06), transparent 60%),
-    radial-gradient(500px 600px at 80% 20%, rgba(255,255,255,0.03), transparent 60%),
-    linear-gradient(180deg, rgba(255,255,255,0.025), transparent 140px);
-  border: 1px solid rgba(255,255,255,0.07);
-  border-radius: 22px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
 }
 
-.phoneFrame::before{
-  /* subtle grain */
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0 1px, transparent 1px 6px),
-    repeating-linear-gradient(90deg, rgba(255,255,255,0.016) 0 1px, transparent 1px 7px);
-  opacity: 0.08;
-  mix-blend-mode: overlay;
-}
-
-.navbar{
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(10,14,20,0.65);
+.navBar{
+  height: 56px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-bottom: 1px solid var(--border);
+  background: rgba(0,0,0,0.25);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
 .navTitle{
   font-weight: 700;
-  letter-spacing: 0.2px;
-  font-size: 20px;
+  letter-spacing: 0.3px;
+}
+
+.content{
+  flex: 1;
+  overflow: auto;
+  padding: 14px 14px 18px;
 }
 
 .toolbar{
-  display: flex;
+  display:flex;
   gap: 10px;
-  align-items: center;
+  align-items:center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.searchInput{
+  flex: 1;
+  min-width: 0;
   padding: 10px 12px;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-}
-
-.search{
-  flex: 1;
-  height: 38px;
-  border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.10);
-  background: rgba(255,255,255,0.04);
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.25);
   color: var(--text);
-  padding: 0 12px;
   outline: none;
-  font-size: 14px;
 }
 
-.search::placeholder{
-  color: rgba(255,255,255,0.38);
+.searchInput::placeholder{ color: rgba(255,255,255,0.35); }
+
+.toolbarMeta{
+  min-width: 84px;
+  text-align: right;
 }
 
-.count{
-  font-size: 12px;
-  color: var(--text);
-  padding: 0 6px;
-  display: inline-flex;
-  gap: 6px;
-  align-items: baseline;
-}
+.mutedText{ color: var(--muted); font-size: 13px; }
+.errorText{ color: #ff7b7b; font-size: 13px; }
 
-.countLabel{
-  color: rgba(255,255,255,0.65);
-}
-
-.gridWrap{
-  padding: 12px;
-  flex: 1;
-  overflow: auto;
-}
-
+/* Grid cards */
 .grid{
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr)); /* ~3 cards per row on S20 */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
 }
 
-@media (max-width: 340px){
-  .grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 520px){
+  .grid{ grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
-.card{
-  position: relative;
-  border: 1px solid rgba(255,255,255,0.09);
-  background:
-    radial-gradient(240px 180px at 20% 10%, rgba(255,255,255,0.06), transparent 60%),
-    linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.02));
-  border-radius: 14px;
+.kanjiCard{
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.05));
+  border-radius: 16px;
   padding: 12px 8px;
-  text-align: center;
+  text-align:center;
+  color: var(--text);
   cursor: pointer;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
 }
 
-.card::after{
-  /* a second "hand-drawn" outline */
-  content: "";
-  position: absolute;
-  inset: 4px;
-  border-radius: 12px;
-  border: 1px dashed rgba(255,255,255,0.10);
-  opacity: 0.35;
-  transform: rotate(-0.25deg);
-  pointer-events: none;
+.kanjiCard:active{
+  transform: scale(0.985);
 }
 
-.card:active{
-  transform: translateY(1px);
+.kanjiChar{
+  /* Main grid kanji: size 24 + handwritten JP feel */
+  font-size: 24px;
+  line-height: 1.1;
+  font-family: "Klee One", "Yuji Boku", "Yuji Syuku", "Hiragino Maru Gothic ProN", "Yu Gothic", "Meiryo", "Noto Serif JP", serif;
 }
 
-.cardKanji{
-  font-family: var(--hand);
-  font-size: 30px;
-  line-height: 1.05;
-  margin-bottom: 6px;
-  color: #fff;
-}
-
-.cardHv{
-  font-family: var(--ui);
-  font-size: 20px;
-  color: #fff;
+.kanjiHanviet{
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", sans-serif;
 }
 
 /* Modal */
 .modalOverlay{
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.62);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px;
+  background: rgba(0,0,0,0.55);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 10px;
+  z-index: 50;
 }
 
-.modalSheet{
-  width: min(420px, 90vw);
-  height: min(760px, 90vh);
-  background:
-    radial-gradient(600px 400px at 30% 10%, rgba(255,255,255,0.06), transparent 60%),
-    rgba(15,20,29,0.93);
-  border: 1px solid rgba(255,255,255,0.10);
+.modalPanel{
+  width: 80vw;            /* requested */
+  height: 80vh;           /* keep consistent */
+  max-width: 560px;
+  border: 1px solid var(--border);
   border-radius: 18px;
-  box-shadow: var(--shadow);
-  overflow: hidden;
-  display: flex;
+  background: rgba(10, 14, 20, 0.92);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 18px 60px rgba(0,0,0,0.55);
+  display:flex;
   flex-direction: column;
-}
-
-.detail{
-  padding: 12px;
-  overflow: auto;
-}
-
-.detailTop{
-  display: flex;
-  justify-content: center;
-}
-
-.svgBox{
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1; /* square */
-  border-radius: 16px;
   overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.10);
-  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
 }
 
-.svgInner{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.modalHeader{
+  padding: 12px 12px 10px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+.modalTitle{
+  display:flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.modalKanji{
+  font-size: 26px;
+  font-family: "Klee One", "Yuji Boku", "Yuji Syuku", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+}
+
+.modalHanviet{
+  font-size: 14px;
+  color: var(--muted);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", sans-serif;
+}
+
+.modalActions{
+  display:flex;
+  gap: 8px;
+}
+
+.iconBtn{
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.05);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.iconBtn.active{
+  border-color: rgba(120,185,255,0.65);
+  box-shadow: 0 0 0 3px rgba(120,185,255,0.15) inset;
+}
+
+.modalBody{
+  flex: 1;
+  overflow: auto;
+  padding: 12px;
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.svgBlock{
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.svgSquare{
   position: relative;
-  z-index: 1;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
-/* Make KanjiVG svg fit nicely */
-.svgInner svg{
-  width: 94%;
-  height: 94%;
-}
-
-/* Subtle grid background for writing */
-.svgBox::before{
-  content: "";
+/* Make SVG fill the square (so it won't look tiny) */
+.svgInner{
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px);
-  background-size: 25% 25%;
-  opacity: 0.25;
-  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none; /* allow drawing on canvas */
 }
 
-.svgFallback{
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-  font-family: var(--hand);
-  font-size: 72px;
-  color: rgba(255,255,255,0.86);
+.svgInner svg{
+  width: 90% !important;
+  height: 90% !important;
+  display: block;
+}
+
+/* Default: show strokes in white, slightly faded before playing */
+.svgInner svg path{
+  stroke: rgba(255,255,255,0.95) !important;
+  fill: none !important;
+  opacity: 0.35;
+}
+
+/* While playing (or after a stroke is set by JS), strokes will be forced to opacity 1 */
+.svgInner.playing svg path{
+  opacity: 1;
+}
+
+.svgLoading, .svgError{
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .drawCanvas{
-  position: absolute;
+  position:absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
-  touch-action: none;
-  pointer-events: none; /* disabled by default */
-  z-index: 3; /* ensure ink is above SVG */
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 120ms ease;
 }
 
 .drawCanvas.on{
   pointer-events: auto;
+  opacity: 1;
 }
 
-.svgActions{
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  gap: 8px;
-  z-index: 5;
-}
-
-.iconBtn{
-  width: 40px;
-  height: 40px;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.14);
-  background: rgba(0,0,0,0.30);
-  color: rgba(255,255,255,0.92);
-  display: grid;
-  place-items: center;
-  cursor: pointer;
-  backdrop-filter: blur(8px);
-}
-
-.iconBtn.active{
-  background: rgba(255,255,255,0.12);
-  border-color: rgba(255,255,255,0.22);
-}
-
-.iconBtn.disabled{
-  opacity: 0.45;
-  cursor: not-allowed;
-}
-
-.iconBtn:disabled{
-  opacity: 0.45;
-  cursor: not-allowed;
-}
-
+/* Info card */
 .infoCard{
-  margin-top: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
   border-radius: 16px;
-  border: 1px solid rgba(255,255,255,0.10);
-  background: rgba(255,255,255,0.03);
-  padding: 10px 12px;
+  padding: 10px;
 }
 
-.row{
-  display: grid;
-  grid-template-columns: 92px 1fr;
+.infoRow{
+  display:grid;
+  grid-template-columns: 110px 1fr;
   gap: 10px;
-  padding: 8px 0;
+  padding: 8px 6px;
   border-bottom: 1px solid rgba(255,255,255,0.06);
 }
+.infoRow:last-child{ border-bottom: none; }
 
-.row:last-of-type{
-  border-bottom: none;
-}
-
-.label{
-  color: rgba(255,255,255,0.62);
+.infoLabel{
+  color: var(--muted);
   font-size: 14px;
 }
 
-.value{
-  color: rgba(255,255,255,0.92);
-  font-size: 16px;
+.infoValue{
+  color: var(--text);
+  font-size: 14px;
   word-break: break-word;
 }
 
-.hint{
-  margin-top: 10px;
-  color: rgba(255,255,255,0.45);
-  font-size: 12px;
+/* Pills for On/Kun */
+.pillWrap{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-@keyframes kvg-draw{
-  to{
-    stroke-dashoffset: 0;
-  }
+.pill{
+  display:inline-flex;
+  align-items:center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.08);
+  font-weight: 600;
+  font-size: 13px;
+  color: rgba(255,255,255,0.95);
+  letter-spacing: 0.2px;
+}
+
+.muted{ color: var(--muted); }
+
+.modalHint{
+  padding: 10px 12px;
+  border-top: 1px solid var(--border);
+  color: rgba(255,255,255,0.45);
+  font-size: 12px;
+  text-align: center;
 }
