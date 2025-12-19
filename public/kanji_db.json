@@ -9471,5 +9471,1025 @@
       "exists": false
     },
     "updatedAt": "2025-12-19T15:55:50.123532+00:00"
+  },
+   {
+    "chu": "試",
+    "hanViet": "THÍ",
+    "nghia": "thử; thử nghiệm",
+    "on": [
+      {
+        "am": "し",
+        "nghia": "thử/thi (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "ため(す)",
+        "nghia": "thử (làm thử để xem kết quả)",
+        "viDu": []
+      },
+      {
+        "am": "こころ(みる)",
+        "nghia": "thử/định làm (cách nói hơi trang trọng)",
+        "viDu": []
+      }
+    ],
+    "bo": "言 NGÔN 式 THỨC",
+    "svg": {
+      "codepoint_hex": "08a66",
+      "path": "resources/kanji_svg/08a66.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:03:33.666132+00:00"
+  },
+  {
+    "chu": "族",
+    "hanViet": "TỘC",
+    "nghia": "tộc; họ; nhóm người",
+    "on": [
+      {
+        "am": "ぞく",
+        "nghia": "tộc/nhóm (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "(なし)",
+        "nghia": "hầu như không dùng Kun",
+        "viDu": []
+      }
+    ],
+    "bo": "𠂉 方 PHƯƠNG 矢 THỈ",
+    "svg": {
+      "codepoint_hex": "065cf",
+      "path": "resources/kanji_svg/065cf.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:03:39.674392+00:00"
+  },
+  {
+    "chu": "銀",
+    "hanViet": "NGÂN",
+    "nghia": "bạc (kim loại)",
+    "on": [
+      {
+        "am": "ぎん",
+        "nghia": "bạc (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "(なし)",
+        "nghia": "hầu như không dùng Kun",
+        "viDu": []
+      }
+    ],
+    "bo": "艮 CẤN 金 KIM",
+    "svg": {
+      "codepoint_hex": "09280",
+      "path": "resources/kanji_svg/09280.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:03:45.720001+00:00"
+  },
+  {
+    "chu": "早",
+    "hanViet": "TẢO",
+    "nghia": "sớm; nhanh",
+    "on": [
+      {
+        "am": "そう",
+        "nghia": "sớm/nhanh (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "はや(い)",
+        "nghia": "sớm; nhanh",
+        "viDu": []
+      },
+      {
+        "am": "はや(める)",
+        "nghia": "làm sớm hơn; đẩy nhanh",
+        "viDu": []
+      },
+      {
+        "am": "はや(まる)",
+        "nghia": "trở nên sớm; hấp tấp (đôi khi: vội vàng)",
+        "viDu": []
+      }
+    ],
+    "bo": "十 THẬP 日 NHẬT",
+    "svg": {
+      "codepoint_hex": "065e9",
+      "path": "resources/kanji_svg/065e9.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:03:52.257741+00:00"
+  },
+  {
+    "chu": "映",
+    "hanViet": "ÁNH",
+    "nghia": "chiếu; phản chiếu; lên hình",
+    "on": [
+      {
+        "am": "えい",
+        "nghia": "chiếu/hình ảnh (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "うつ(る)",
+        "nghia": "phản chiếu; hiện lên (tự hiện)",
+        "viDu": []
+      },
+      {
+        "am": "うつ(す)",
+        "nghia": "chiếu; phản chiếu (làm cho hiện lên)",
+        "viDu": []
+      },
+      {
+        "am": "は(える)",
+        "nghia": "trông đẹp/nổi bật (lên hình, hợp cảnh)",
+        "viDu": []
+      }
+    ],
+    "bo": "央 ƯƠNG 日 NHẬT",
+    "svg": {
+      "codepoint_hex": "06620",
+      "path": "resources/kanji_svg/06620.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:03:57.846038+00:00"
+  },
+  {
+    "chu": "親",
+    "hanViet": "THÂN",
+    "nghia": "cha mẹ; thân; thân thiết",
+    "on": [
+      {
+        "am": "しん",
+        "nghia": "thân (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "おや",
+        "nghia": "cha mẹ",
+        "viDu": []
+      },
+      {
+        "am": "した(しい)",
+        "nghia": "thân thiết; gần gũi",
+        "viDu": []
+      },
+      {
+        "am": "したし(む)",
+        "nghia": "làm quen; thân mật; thường xuyên gần gũi với",
+        "viDu": []
+      }
+    ],
+    "bo": "亲 THÂN 見 KIẾN",
+    "svg": {
+      "codepoint_hex": "089aa",
+      "path": "resources/kanji_svg/089aa.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:03.308719+00:00"
+  },
+  {
+    "chu": "験",
+    "hanViet": "NGHIỆM",
+    "nghia": "kinh nghiệm; kiểm nghiệm (thường dùng trong từ ghép)",
+    "on": [
+      {
+        "am": "けん",
+        "nghia": "nghiệm (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "(なし)",
+        "nghia": "hầu như không dùng Kun",
+        "viDu": []
+      }
+    ],
+    "bo": "㑒 馬 MÃ",
+    "svg": {
+      "codepoint_hex": "09a13",
+      "path": "resources/kanji_svg/09a13.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:08.021068+00:00"
+  },
+  {
+    "chu": "英",
+    "hanViet": "ANH",
+    "nghia": "Anh; tiếng Anh; (nghĩa mở rộng: tinh hoa)",
+    "on": [
+      {
+        "am": "えい",
+        "nghia": "Anh/tiếng Anh (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "(なし)",
+        "nghia": "hầu như không dùng Kun",
+        "viDu": []
+      }
+    ],
+    "bo": "艹 THẢO 央 ƯƠNG",
+    "svg": {
+      "codepoint_hex": "082f1",
+      "path": "resources/kanji_svg/082f1.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:12.764034+00:00"
+  },
+  {
+    "chu": "医",
+    "hanViet": "Y",
+    "nghia": "y; y học; bác sĩ",
+    "on": [
+      {
+        "am": "い",
+        "nghia": "y (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "(なし)",
+        "nghia": "hầu như không dùng Kun",
+        "viDu": []
+      }
+    ],
+    "bo": "矢 THỈ 匚 PHƯƠNG",
+    "svg": {
+      "codepoint_hex": "0533b",
+      "path": "resources/kanji_svg/0533b.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:17.427373+00:00"
+  },
+  {
+    "chu": "仕",
+    "hanViet": "SĨ",
+    "nghia": "làm (việc); phục vụ (thường dùng trong từ ghép)",
+    "on": [
+      {
+        "am": "し",
+        "nghia": "làm/việc (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "つか(える)",
+        "nghia": "phục vụ; hầu hạ (ai đó)",
+        "viDu": []
+      }
+    ],
+    "bo": "亻 NHÂN 士 SĨ",
+    "svg": {
+      "codepoint_hex": "04ed5",
+      "path": "resources/kanji_svg/04ed5.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:22.469918+00:00"
+  },
+  {
+    "chu": "去",
+    "hanViet": "KHỨ",
+    "nghia": "đi qua; rời đi; quá khứ",
+    "on": [
+      {
+        "am": "きょ",
+        "nghia": "khứ/rời (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "さ(る)",
+        "nghia": "rời đi; đi qua (văn viết/biểu đạt)",
+        "viDu": []
+      }
+    ],
+    "bo": "厶 KHƯ 土 THỔ",
+    "svg": {
+      "codepoint_hex": "053bb",
+      "path": "resources/kanji_svg/053bb.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:27.386270+00:00"
+  },
+  {
+    "chu": "味",
+    "hanViet": "VỊ",
+    "nghia": "vị; mùi vị; ý nghĩa (trong từ ghép)",
+    "on": [
+      {
+        "am": "み",
+        "nghia": "vị/ý nghĩa (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "あじ",
+        "nghia": "mùi vị",
+        "viDu": []
+      },
+      {
+        "am": "あじわ(う)",
+        "nghia": "thưởng thức; nếm và cảm nhận",
+        "viDu": []
+      }
+    ],
+    "bo": "未 VỊ 口 KHẨU",
+    "svg": {
+      "codepoint_hex": "05473",
+      "path": "resources/kanji_svg/05473.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:32.153251+00:00"
+  },
+  {
+    "chu": "写",
+    "hanViet": "TẢ",
+    "nghia": "chụp/ghi lại; sao chép",
+    "on": [
+      {
+        "am": "しゃ",
+        "nghia": "chụp/ghi (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "うつ(す)",
+        "nghia": "chép lại; sao; ghi lại",
+        "viDu": []
+      },
+      {
+        "am": "うつ(る)",
+        "nghia": "lên hình; được chụp/được phản chiếu",
+        "viDu": []
+      }
+    ],
+    "bo": "与 DỮ 冖 MỊCH",
+    "svg": {
+      "codepoint_hex": "05199",
+      "path": "resources/kanji_svg/05199.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:37.682552+00:00"
+  },
+  {
+    "chu": "字",
+    "hanViet": "TỰ",
+    "nghia": "chữ; ký tự",
+    "on": [
+      {
+        "am": "じ",
+        "nghia": "chữ (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "あざ",
+        "nghia": "tên khu/đơn vị địa chỉ nhỏ (hay dùng trong địa danh)",
+        "viDu": []
+      }
+    ],
+    "bo": "子 TỬ 宀 MIÊN",
+    "svg": {
+      "codepoint_hex": "05b57",
+      "path": "resources/kanji_svg/05b57.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:42.601919+00:00"
+  },
+  {
+    "chu": "答",
+    "hanViet": "ĐÁP",
+    "nghia": "trả lời; đáp án",
+    "on": [
+      {
+        "am": "とう",
+        "nghia": "đáp/trả lời (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "こた(える)",
+        "nghia": "trả lời; đáp lại",
+        "viDu": []
+      },
+      {
+        "am": "こた(え)",
+        "nghia": "câu trả lời; đáp án",
+        "viDu": []
+      }
+    ],
+    "bo": "⺮ 合 HỢP",
+    "svg": {
+      "codepoint_hex": "07b54",
+      "path": "resources/kanji_svg/07b54.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:47.460226+00:00"
+  },
+  {
+    "chu": "夜",
+    "hanViet": "DẠ",
+    "nghia": "đêm; ban đêm",
+    "on": [
+      {
+        "am": "や",
+        "nghia": "đêm (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "よる",
+        "nghia": "đêm; buổi tối",
+        "viDu": []
+      },
+      {
+        "am": "よ",
+        "nghia": "đêm (dạng ngắn, hay trong từ ghép Kun)",
+        "viDu": []
+      }
+    ],
+    "bo": "亻 NHÂN 夂 TRI 丶 CHỦ 亠 ĐẦU",
+    "svg": {
+      "codepoint_hex": "0591c",
+      "path": "resources/kanji_svg/0591c.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:52.294835+00:00"
+  },
+  {
+    "chu": "音",
+    "hanViet": "ÂM",
+    "nghia": "âm thanh; tiếng",
+    "on": [
+      {
+        "am": "おん",
+        "nghia": "âm thanh (trong từ ghép)",
+        "viDu": []
+      },
+      {
+        "am": "いん",
+        "nghia": "âm (trong thuật ngữ ngôn ngữ học)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "おと",
+        "nghia": "tiếng; âm thanh",
+        "viDu": []
+      },
+      {
+        "am": "ね",
+        "nghia": "tiếng/âm (thường là “tiếng” mang sắc thái, giọng)",
+        "viDu": []
+      }
+    ],
+    "bo": "日 NHẬT 立 LẬP",
+    "svg": {
+      "codepoint_hex": "097f3",
+      "path": "resources/kanji_svg/097f3.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:04:57.122579+00:00"
+  },
+  {
+    "chu": "注",
+    "hanViet": "CHÚ",
+    "nghia": "chú ý; rót; đổ vào",
+    "on": [
+      {
+        "am": "ちゅう",
+        "nghia": "chú (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "そそ(ぐ)",
+        "nghia": "rót; đổ vào (chất lỏng/hoặc dồn vào như tình cảm)",
+        "viDu": []
+      }
+    ],
+    "bo": null,
+    "svg": {
+      "codepoint_hex": "06ce8",
+      "path": "resources/kanji_svg/06ce8.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:01.751073+00:00"
+  },
+  {
+    "chu": "帰",
+    "hanViet": "QUY",
+    "nghia": "về; trở về",
+    "on": [
+      {
+        "am": "き",
+        "nghia": "quy/về (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "かえ(る)",
+        "nghia": "về; trở về",
+        "viDu": []
+      },
+      {
+        "am": "かえ(す)",
+        "nghia": "cho về; đưa về (gửi về nhà)",
+        "viDu": []
+      }
+    ],
+    "bo": "刂 ĐAO 帚 TRỬU",
+    "svg": {
+      "codepoint_hex": "05e30",
+      "path": "resources/kanji_svg/05e30.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:06.529708+00:00"
+  },
+  {
+    "chu": "古",
+    "hanViet": "CỔ",
+    "nghia": "cũ; cổ xưa",
+    "on": [
+      {
+        "am": "こ",
+        "nghia": "cổ/cũ (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "ふる(い)",
+        "nghia": "cũ",
+        "viDu": []
+      }
+    ],
+    "bo": "十 THẬP 口 KHẨU",
+    "svg": {
+      "codepoint_hex": "053e4",
+      "path": "resources/kanji_svg/053e4.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:11.238050+00:00"
+  },
+  {
+    "chu": "歌",
+    "hanViet": "CA",
+    "nghia": "bài hát; hát",
+    "on": [
+      {
+        "am": "か",
+        "nghia": "ca (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "うた",
+        "nghia": "bài hát",
+        "viDu": []
+      },
+      {
+        "am": "うた(う)",
+        "nghia": "hát",
+        "viDu": []
+      }
+    ],
+    "bo": "欠 KHIẾM 可 KHẢ",
+    "svg": {
+      "codepoint_hex": "06b4c",
+      "path": "resources/kanji_svg/06b4c.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:15.987351+00:00"
+  },
+  {
+    "chu": "買",
+    "hanViet": "MÃI",
+    "nghia": "mua",
+    "on": [
+      {
+        "am": "ばい",
+        "nghia": "mua/bán (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "か(う)",
+        "nghia": "mua",
+        "viDu": []
+      }
+    ],
+    "bo": "罒 VÕNG 貝 BỐI",
+    "svg": {
+      "codepoint_hex": "08cb7",
+      "path": "resources/kanji_svg/08cb7.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:20.637884+00:00"
+  },
+  {
+    "chu": "悪",
+    "hanViet": "ÁC",
+    "nghia": "xấu; ác; tệ",
+    "on": [
+      {
+        "am": "あく",
+        "nghia": "ác/xấu (trong từ ghép)",
+        "viDu": []
+      },
+      {
+        "am": "お",
+        "nghia": "ác/xấu (trong một số từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "わる(い)",
+        "nghia": "xấu; tệ",
+        "viDu": []
+      }
+    ],
+    "bo": "心 TÂM 亜 Á",
+    "svg": {
+      "codepoint_hex": "060aa",
+      "path": "resources/kanji_svg/060aa.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:25.562272+00:00"
+  },
+  {
+    "chu": "図",
+    "hanViet": "ĐỒ",
+    "nghia": "bản đồ; hình vẽ; kế hoạch/ý đồ",
+    "on": [
+      {
+        "am": "ず",
+        "nghia": "đồ/hình (trong từ ghép)",
+        "viDu": []
+      },
+      {
+        "am": "と",
+        "nghia": "ý đồ/kế hoạch (trong một số từ)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "はか(る)",
+        "nghia": "tính toán; mưu/định; cố làm",
+        "viDu": []
+      }
+    ],
+    "bo": "斗 ĐẤU 囗 VI",
+    "svg": {
+      "codepoint_hex": "056f3",
+      "path": "resources/kanji_svg/056f3.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:31.038293+00:00"
+  },
+  {
+    "chu": "週",
+    "hanViet": "CHU",
+    "nghia": "tuần",
+    "on": [
+      {
+        "am": "しゅう",
+        "nghia": "tuần (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "(なし)",
+        "nghia": "hầu như không dùng Kun",
+        "viDu": []
+      }
+    ],
+    "bo": "周 CHU ⻌",
+    "svg": {
+      "codepoint_hex": "09031",
+      "path": "resources/kanji_svg/09031.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:35.772597+00:00"
+  },
+  {
+    "chu": "室",
+    "hanViet": "THẤT",
+    "nghia": "phòng",
+    "on": [
+      {
+        "am": "しつ",
+        "nghia": "phòng (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "むろ",
+        "nghia": "phòng/kho (cách nói cổ; hay trong địa danh)",
+        "viDu": []
+      }
+    ],
+    "bo": "至 CHÍ 宀 MIÊN",
+    "svg": {
+      "codepoint_hex": "05ba4",
+      "path": "resources/kanji_svg/05ba4.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:40.828869+00:00"
+  },
+  {
+    "chu": "歩",
+    "hanViet": "BỘ",
+    "nghia": "đi bộ; bước",
+    "on": [
+      {
+        "am": "ほ",
+        "nghia": "bộ/bước (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "ある(く)",
+        "nghia": "đi bộ",
+        "viDu": []
+      },
+      {
+        "am": "あゆ(む)",
+        "nghia": "bước đi; tiến bước (thường nghĩa bóng)",
+        "viDu": []
+      }
+    ],
+    "bo": "少 THIỂU 止 CHỈ",
+    "svg": {
+      "codepoint_hex": "06b69",
+      "path": "resources/kanji_svg/06b69.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:45.640030+00:00"
+  },
+  {
+    "chu": "風",
+    "hanViet": "PHONG",
+    "nghia": "gió; kiểu/cách; phong cách",
+    "on": [
+      {
+        "am": "ふう",
+        "nghia": "phong/cách (trong từ ghép)",
+        "viDu": []
+      },
+      {
+        "am": "ふ",
+        "nghia": "phong (trong một số từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "かぜ",
+        "nghia": "gió",
+        "viDu": []
+      },
+      {
+        "am": "かざ",
+        "nghia": "gió (dạng biến âm trong vài từ)",
+        "viDu": []
+      }
+    ],
+    "bo": "ノ 虫 TRÙNG 𠘨",
+    "svg": {
+      "codepoint_hex": "098a8",
+      "path": "resources/kanji_svg/098a8.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:50.751543+00:00"
+  },
+  {
+    "chu": "紙",
+    "hanViet": "CHỈ",
+    "nghia": "giấy",
+    "on": [
+      {
+        "am": "し",
+        "nghia": "giấy (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "かみ",
+        "nghia": "giấy",
+        "viDu": []
+      }
+    ],
+    "bo": "氏 THỊ 糸 MỊCH",
+    "svg": {
+      "codepoint_hex": "07d19",
+      "path": "resources/kanji_svg/07d19.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:05:55.411047+00:00"
+  },
+  {
+    "chu": "黒",
+    "hanViet": "HẮC",
+    "nghia": "đen",
+    "on": [
+      {
+        "am": "こく",
+        "nghia": "đen (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "くろ",
+        "nghia": "màu đen",
+        "viDu": []
+      }
+    ],
+    "bo": "里 LÍ 灬 HỎA",
+    "svg": {
+      "codepoint_hex": "09ed2",
+      "path": "resources/kanji_svg/09ed2.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:06:00.137392+00:00"
+  },
+  {
+    "chu": "花",
+    "hanViet": "HOA",
+    "nghia": "hoa",
+    "on": [
+      {
+        "am": "か",
+        "nghia": "hoa (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "はな",
+        "nghia": "hoa",
+        "viDu": []
+      }
+    ],
+    "bo": "艹 THẢO 化 HÓA",
+    "svg": {
+      "codepoint_hex": "082b1",
+      "path": "resources/kanji_svg/082b1.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:06:04.776015+00:00"
+  },
+  {
+    "chu": "春",
+    "hanViet": "XUÂN",
+    "nghia": "mùa xuân",
+    "on": [
+      {
+        "am": "しゅん",
+        "nghia": "xuân (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "はる",
+        "nghia": "mùa xuân",
+        "viDu": []
+      }
+    ],
+    "bo": "𡗗 日 NHẬT",
+    "svg": {
+      "codepoint_hex": "06625",
+      "path": "resources/kanji_svg/06625.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:06:09.589172+00:00"
+  },
+  {
+    "chu": "赤",
+    "hanViet": "XÍCH",
+    "nghia": "đỏ",
+    "on": [
+      {
+        "am": "せき",
+        "nghia": "đỏ (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "あか",
+        "nghia": "màu đỏ",
+        "viDu": []
+      }
+    ],
+    "bo": null,
+    "svg": {
+      "codepoint_hex": "08d64",
+      "path": "resources/kanji_svg/08d64.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:06:14.453547+00:00"
+  },
+  {
+    "chu": "青",
+    "hanViet": "THANH",
+    "nghia": "xanh (xanh lam/xanh lục tùy ngữ cảnh)",
+    "on": [
+      {
+        "am": "せい",
+        "nghia": "xanh/tuổi trẻ (trong từ ghép)",
+        "viDu": []
+      },
+      {
+        "am": "しょう",
+        "nghia": "xanh (trong một số từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "あお",
+        "nghia": "màu xanh",
+        "viDu": []
+      },
+      {
+        "am": "あお(い)",
+        "nghia": "xanh (tính từ)",
+        "viDu": []
+      }
+    ],
+    "bo": "龶 ⺝",
+    "svg": {
+      "codepoint_hex": "09752",
+      "path": "resources/kanji_svg/09752.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:06:19.661973+00:00"
+  },
+  {
+    "chu": "館",
+    "hanViet": "QUÁN",
+    "nghia": "tòa nhà/quán (nhà công cộng); nhà/điện lớn",
+    "on": [
+      {
+        "am": "かん",
+        "nghia": "quán/tòa nhà (trong từ ghép)",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "やかた",
+        "nghia": "dinh thự; tòa nhà lớn (cách gọi cổ/văn vẻ)",
+        "viDu": []
+      }
+    ],
+    "bo": "官 QUAN 飠 THỰC",
+    "svg": {
+      "codepoint_hex": "09928",
+      "path": "resources/kanji_svg/09928.svg",
+      "exists": false
+    },
+    "updatedAt": "2025-12-19T16:06:24.437936+00:00"
   }
 ]
