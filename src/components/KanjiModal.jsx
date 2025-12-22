@@ -233,6 +233,33 @@ export default function KanjiModal({ entry, onClose }) {
     );
   }
 
+  function collectExamples() {
+    const out = [];
+    const seen = new Set();
+
+    const read = (arr) => {
+      if (!Array.isArray(arr)) return;
+      for (const r of arr) {
+        const list = r?.viDu;
+        if (!Array.isArray(list)) continue;
+        for (const ex of list) {
+          const tu = (ex?.tu ?? "").trim();
+          const hira = (ex?.hiragana ?? "").trim();
+          const nghia = (ex?.nghia ?? "").trim();
+          if (!tu || !nghia) continue;
+          const key = `${tu}|${hira}|${nghia}`;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          out.push({ tu, hiragana: hira, nghia });
+        }
+      }
+    };
+
+    read(entry?.on);
+    read(entry?.kun);
+    return out;
+  }
+
   const boText = entry?.bo ? String(entry.bo) : "—";
 
   return (
@@ -311,6 +338,30 @@ export default function KanjiModal({ entry, onClose }) {
             <div className="infoRow">
               <div className="infoLabel">On</div>
               <div className="infoValue">{renderPills(entry?.on)}</div>
+            </div>
+
+            <div className="infoRow">
+              <div className="infoLabel">Ví dụ</div>
+              <div className="infoValue">
+                {(() => {
+                  const exs = collectExamples();
+                  if (!exs.length) return <span className="muted">—</span>;
+                  return (
+                    <div className="exampleList">
+                      {exs.map((ex, idx) => (
+                        <div className="exampleLine" key={`${ex.tu}-${idx}`}>
+                          <span className="exWord">{ex.tu}</span>
+                          {ex.hiragana ? (
+                            <span className="exHira"> ({ex.hiragana})</span>
+                          ) : null}
+                          <span className="exSep">: </span>
+                          <span className="exMean">{ex.nghia}</span>
+                        </div>
+                      ))}
+                    </div>
+                  );
+                })()}
+              </div>
             </div>
             <div className="infoRow">
               <div className="infoLabel">Bộ</div>
