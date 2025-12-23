@@ -233,34 +233,95 @@ export default function KanjiModal({ entry, onClose }) {
     );
   }
 
-  function collectExamples() {
-    const out = [];
-    const seen = new Set();
+  function collectExamples(entry) {
+  // Return a flat list of examples:
+  // [{ tu, hiragana, nghia }]
+  const out = [];
+  const seen = new Set();
 
-    const read = (arr) => {
-      if (!Array.isArray(arr)) return;
-      for (const r of arr) {
-        const list = r?.viDu;
-        if (!Array.isArray(list)) continue;
-        for (const ex of list) {
-          const tu = (ex?.tu ?? "").trim();
-          const hira = (ex?.hiragana ?? "").trim();
-          const nghia = (ex?.nghia ?? "").trim();
-          if (!tu || !nghia) continue;
-          const key = `${tu}|${hira}|${nghia}`;
-          if (seen.has(key)) continue;
-          seen.add(key);
-          out.push({ tu, hiragana: hira, nghia });
-        }
+  const pushExample = (ex) => {
+    if (!ex) return;
+
+    // Normalize various shapes:
+    // - {tu, hiragana, nghia}
+    // - {word, reading, meaning}
+    // - "日本（にほん）" or "日本(にほん)" or "日本: nghĩa"
+    if (typeof ex === "string") {
+      const s = ex.trim();
+      if (!s) return;
+
+      // Try patterns:
+      // 1) 漢字（かな）: meaning
+      // 2) 漢字（かな）
+      // 3) 漢字: meaning
+      const m1 = s.match(/^(.+?)[（(]([^）)]+)[）)]\s*[:：]\s*(.+)$/);
+      const m2 = s.match(/^(.+?)[（(]([^）)]+)[）)]$/);
+      const m3 = s.match(/^(.+?)\s*[:：]\s*(.+)$/);
+
+      const tu = (m1?.[1] ?? m2?.[1] ?? m3?.[1] ?? s).trim();
+      const hiragana = (m1?.[2] ?? m2?.[2] ?? "").trim();
+      const nghia = (m1?.[3] ?? m3?.[2] ?? "").trim();
+
+      const key = `${tu}||${hiragana}||${nghia}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      out.push({ tu, hiragana, nghia });
+      return;
+    }
+
+    const tu = (ex.tu ?? ex.word ?? "").toString().trim();
+    const hiragana = (ex.hiragana ?? ex.reading ?? "").toString().trim();
+    const nghia = (ex.nghia ?? ex.meaning ?? "").toString().trim();
+
+    if (!tu) return;
+    const key = `${tu}||${hiragana}||${nghia}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    out.push({ tu, hiragana, nghia });
+  };
+
+  const walkExampleArray = (arr) => {
+    if (!Array.isArray(arr)) return;
+    for (const item of arr) pushExample(item);
+  };
+
+  const walkReadings = (readings) => {
+    if (!Array.isArray(readings)) return;
+
+    for (const r of readings) {
+      // New format: { am, nghia, viDu:[...] }
+      if (r && typeof r === "object" && Array.isArray(r.viDu)) {
+        walkExampleArray(r.viDu);
+        continue;
       }
-    };
 
-    read(entry?.on);
-    read(entry?.kun);
-    return out;
+      // Sometimes examples might be directly embedded as objects
+      // e.g. {tu, hiragana, nghia}
+      pushExample(r);
+    }
+  };
+
+  // 1) New format: nested examples inside entry.on/entry.kun
+  walkReadings(entry?.kun);
+  walkReadings(entry?.on);
+
+  // 2) Alternate formats (if you build json from text manually)
+  walkExampleArray(entry?.viDuKun);
+  walkExampleArray(entry?.viDuOn);
+
+  // 3) Generic fallbacks
+  if (entry?.viDu) walkExampleArray(entry.viDu);
+  if (entry?.examples) {
+    // examples could be an array or {kun:[...], on:[...]}
+    if (Array.isArray(entry.examples)) walkExampleArray(entry.examples);
+    if (entry.examples?.kun) walkExampleArray(entry.examples.kun);
+    if (entry.examples?.on) walkExampleArray(entry.examples.on);
   }
 
-  const boText = entry?.bo ? String(entry.bo) : "—";
+  return out;
+}
+
+const boText = entry?.bo ? String(entry.bo) : "—";
 
   return (
     <div className="modalOverlay" onMouseDown={onClose} role="presentation">
