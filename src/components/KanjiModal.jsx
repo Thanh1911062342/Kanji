@@ -405,7 +405,9 @@ const boText = entry?.bo ? String(entry.bo) : "—";
               <div className="infoLabel">Ví dụ</div>
               <div className="infoValue">
                 {(() => {
-                  const exs = collectExamples();
+                  // Examples are nested inside entry.kun[].viDu / entry.on[].viDu
+                  // so we must pass the current entry into the collector.
+                  const exs = collectExamples(entry);
                   if (!exs.length) return <span className="muted">—</span>;
                   return (
                     <div className="exampleList">
@@ -416,7 +418,7 @@ const boText = entry?.bo ? String(entry.bo) : "—";
                             <span className="exHira"> ({ex.hiragana})</span>
                           ) : null}
                           <span className="exSep">: </span>
-                          <span className="exMean">{ex.nghia}</span>
+                          <span className="exMean">{ex.nghia || "—"}</span>
                         </div>
                       ))}
                     </div>
