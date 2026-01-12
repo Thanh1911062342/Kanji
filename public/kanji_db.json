@@ -36122,5 +36122,3262 @@
       "exists": true
     },
     "updatedAt": "2025-12-25T06:20:00.789205+00:00"
+  },
+   {
+    "chu": "党",
+    "hanViet": "ĐẢNG",
+    "nghia": "đảng phái, phe; nhóm cùng chung mục đích",
+    "on": [
+      {
+        "am": "トウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "政党",
+            "hiragana": "せいとう",
+            "nghia": "chính đảng"
+          },
+          {
+            "tu": "党員",
+            "hiragana": "とういん",
+            "nghia": "đảng viên"
+          },
+          {
+            "tu": "与党",
+            "hiragana": "よとう",
+            "nghia": "đảng cầm quyền"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "亠（bộ Đầu/なべぶた） + 黨（đảng）",
+    "svg": {
+      "codepoint_hex": "0515a",
+      "path": "resources/kanji_svg/0515a.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.556425+00:00"
+  },
+  {
+    "chu": "的",
+    "hanViet": "ĐÍCH",
+    "nghia": "mục tiêu; mang tính ~ (biểu thị tính chất)",
+    "on": [
+      {
+        "am": "テキ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "目的",
+            "hiragana": "もくてき",
+            "nghia": "mục đích"
+          },
+          {
+            "tu": "個人的",
+            "hiragana": "こじんてき",
+            "nghia": "mang tính cá nhân"
+          },
+          {
+            "tu": "一般的",
+            "hiragana": "いっぱんてき",
+            "nghia": "mang tính phổ biến"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "まと",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "的",
+            "hiragana": "まと",
+            "nghia": "mục tiêu, cái bia"
+          }
+        ]
+      }
+    ],
+    "bo": "白（bộ Bạch/しろ） + 勺（chước）",
+    "svg": {
+      "codepoint_hex": "07684",
+      "path": "resources/kanji_svg/07684.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.557096+00:00"
+  },
+  {
+    "chu": "協",
+    "hanViet": "HIỆP",
+    "nghia": "hiệp lực, cùng nhau; hợp tác",
+    "on": [
+      {
+        "am": "キョウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "協力",
+            "hiragana": "きょうりょく",
+            "nghia": "hợp tác"
+          },
+          {
+            "tu": "助け合う",
+            "hiragana": "たすけあう",
+            "nghia": "giúp đỡ lẫn nhau (dùng 協 trong 協力)"
+          },
+          {
+            "tu": "協会",
+            "hiragana": "きょうかい",
+            "nghia": "hiệp hội"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "十（bộ Thập/じゅう） + 劦（hiệp）",
+    "svg": {
+      "codepoint_hex": "05354",
+      "path": "resources/kanji_svg/05354.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.557787+00:00"
+  },
+  {
+    "chu": "総",
+    "hanViet": "TỔNG",
+    "nghia": "tổng, toàn bộ; tổng hợp",
+    "on": [
+      {
+        "am": "ソウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "総理",
+            "hiragana": "そうり",
+            "nghia": "thủ tướng"
+          },
+          {
+            "tu": "総合",
+            "hiragana": "そうごう",
+            "nghia": "tổng hợp, toàn diện"
+          },
+          {
+            "tu": "総額",
+            "hiragana": "そうがく",
+            "nghia": "tổng số tiền"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "すべ(て)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "総べて",
+            "hiragana": "すべて",
+            "nghia": "tất cả, toàn bộ (thường viết すべて)"
+          }
+        ]
+      }
+    ],
+    "bo": "糸（bộ Mịch/いとへん） + 公（công）",
+    "svg": {
+      "codepoint_hex": "07dcf",
+      "path": "resources/kanji_svg/07dcf.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.558529+00:00"
+  },
+  {
+    "chu": "区",
+    "hanViet": "KHU",
+    "nghia": "khu vực; quận, khu hành chính",
+    "on": [
+      {
+        "am": "ク",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "区",
+            "hiragana": "く",
+            "nghia": "khu, quận"
+          },
+          {
+            "tu": "地区",
+            "hiragana": "ちく",
+            "nghia": "khu vực"
+          },
+          {
+            "tu": "区別",
+            "hiragana": "くべつ",
+            "nghia": "phân biệt"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "匚（bộ Phương/はこがまえ） + ユ",
+    "svg": {
+      "codepoint_hex": "0533a",
+      "path": "resources/kanji_svg/0533a.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.559075+00:00"
+  },
+  {
+    "chu": "領",
+    "hanViet": "LĨNH",
+    "nghia": "lãnh thổ; lãnh đạo, cai quản",
+    "on": [
+      {
+        "am": "リョウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "領土",
+            "hiragana": "りょうど",
+            "nghia": "lãnh thổ"
+          },
+          {
+            "tu": "領収書",
+            "hiragana": "りょうしゅうしょ",
+            "nghia": "biên lai"
+          },
+          {
+            "tu": "本領",
+            "hiragana": "ほんりょう",
+            "nghia": "sở trường, bản lĩnh thật sự"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "えり",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "領",
+            "hiragana": "えり",
+            "nghia": "cổ áo (ít dùng, thường là 襟)"
+          }
+        ]
+      }
+    ],
+    "bo": "頁（bộ Hiệt/おおがい） + 令（lệnh）",
+    "svg": {
+      "codepoint_hex": "09818",
+      "path": "resources/kanji_svg/09818.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.559717+00:00"
+  },
+  {
+    "chu": "県",
+    "hanViet": "HUYỆN",
+    "nghia": "tỉnh (đơn vị hành chính Nhật)",
+    "on": [
+      {
+        "am": "ケン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "県",
+            "hiragana": "けん",
+            "nghia": "tỉnh"
+          },
+          {
+            "tu": "県立",
+            "hiragana": "けんりつ",
+            "nghia": "thuộc tỉnh"
+          },
+          {
+            "tu": "県庁",
+            "hiragana": "けんちょう",
+            "nghia": "tòa tỉnh"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "目（bộ Mục/め） + 小（bộ Tiểu/しょう） + 厶",
+    "svg": {
+      "codepoint_hex": "0770c",
+      "path": "resources/kanji_svg/0770c.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.560422+00:00"
+  },
+  {
+    "chu": "設",
+    "hanViet": "THIẾT",
+    "nghia": "thiết lập, dựng nên; lắp đặt",
+    "on": [
+      {
+        "am": "セツ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "設計",
+            "hiragana": "せっけい",
+            "nghia": "thiết kế"
+          },
+          {
+            "tu": "設備",
+            "hiragana": "せつび",
+            "nghia": "thiết bị"
+          },
+          {
+            "tu": "施設",
+            "hiragana": "しせつ",
+            "nghia": "cơ sở, công trình"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "もう(ける)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "設ける",
+            "hiragana": "もうける",
+            "nghia": "lập nên, thiết lập, chuẩn bị sẵn"
+          }
+        ]
+      }
+    ],
+    "bo": "言（bộ Ngôn/ごんべん） + 殳（bộ Thù/るまた）",
+    "svg": {
+      "codepoint_hex": "08a2d",
+      "path": "resources/kanji_svg/08a2d.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.561236+00:00"
+  },
+  {
+    "chu": "改",
+    "hanViet": "CẢI",
+    "nghia": "sửa đổi, cải cách; thay đổi cho tốt hơn",
+    "on": [
+      {
+        "am": "カイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "改良",
+            "hiragana": "かいりょう",
+            "nghia": "cải thiện"
+          },
+          {
+            "tu": "改正",
+            "hiragana": "かいせい",
+            "nghia": "sửa đổi (luật, quy định)"
+          },
+          {
+            "tu": "改革",
+            "hiragana": "かいかく",
+            "nghia": "cải cách"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "あらた(める)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "改める",
+            "hiragana": "あらためる",
+            "nghia": "sửa, đổi, thay đổi; kiểm tra"
+          },
+          {
+            "tu": "改まる",
+            "hiragana": "あらたまる",
+            "nghia": "trở nên trang trọng; thay đổi"
+          }
+        ]
+      },
+      {
+        "am": "あらた(まる)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "己（bộ Kỷ/おのれ） + 攴（bộ Phộc/ぼくづくり）",
+    "svg": {
+      "codepoint_hex": "06539",
+      "path": "resources/kanji_svg/06539.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.562143+00:00"
+  },
+  {
+    "chu": "府",
+    "hanViet": "PHỦ",
+    "nghia": "phủ, chính quyền cấp tỉnh/thành; cơ quan nhà nước",
+    "on": [
+      {
+        "am": "フ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "都府県",
+            "hiragana": "とふけん",
+            "nghia": "phủ và huyện (tỉnh)"
+          },
+          {
+            "tu": "政府",
+            "hiragana": "せいふ",
+            "nghia": "chính phủ"
+          },
+          {
+            "tu": "府庁",
+            "hiragana": "ふちょう",
+            "nghia": "cơ quan hành chính cấp phủ"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "广（bộ Nghiễm/まだれ） + 付（phó）",
+    "svg": {
+      "codepoint_hex": "05e9c",
+      "path": "resources/kanji_svg/05e9c.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.563325+00:00"
+  },
+  {
+    "chu": "査",
+    "hanViet": "TRA",
+    "nghia": "điều tra, kiểm tra",
+    "on": [
+      {
+        "am": "サ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "調査",
+            "hiragana": "ちょうさ",
+            "nghia": "điều tra"
+          },
+          {
+            "tu": "検査",
+            "hiragana": "けんさ",
+            "nghia": "kiểm tra (y tế, kỹ thuật)"
+          },
+          {
+            "tu": "査定",
+            "hiragana": "さてい",
+            "nghia": "thẩm định"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "木（bộ Mộc/き） + 𣏌",
+    "svg": {
+      "codepoint_hex": "067fb",
+      "path": "resources/kanji_svg/067fb.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.564817+00:00"
+  },
+  {
+    "chu": "委",
+    "hanViet": "ỦY",
+    "nghia": "ủy thác, giao phó; ủy ban",
+    "on": [
+      {
+        "am": "イ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "委員",
+            "hiragana": "いいん",
+            "nghia": "ủy viên"
+          },
+          {
+            "tu": "委員会",
+            "hiragana": "いいんかい",
+            "nghia": "ủy ban"
+          },
+          {
+            "tu": "委託",
+            "hiragana": "いたく",
+            "nghia": "ủy thác"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "ゆだ(ねる)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "委ねる",
+            "hiragana": "ゆだねる",
+            "nghia": "giao phó, ủy thác"
+          }
+        ]
+      }
+    ],
+    "bo": "禾（bộ Hòa/のぎ） + 女（bộ Nữ/おんな）",
+    "svg": {
+      "codepoint_hex": "059d4",
+      "path": "resources/kanji_svg/059d4.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.565912+00:00"
+  },
+  {
+    "chu": "軍",
+    "hanViet": "QUÂN",
+    "nghia": "quân đội; binh lính",
+    "on": [
+      {
+        "am": "グン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "軍隊",
+            "hiragana": "ぐんたい",
+            "nghia": "quân đội"
+          },
+          {
+            "tu": "兵士",
+            "hiragana": "へいし",
+            "nghia": "binh sĩ"
+          },
+          {
+            "tu": "空軍",
+            "hiragana": "くうぐん",
+            "nghia": "không quân"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "いくさ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "軍",
+            "hiragana": "いくさ",
+            "nghia": "chiến trận (cổ, văn chương)"
+          }
+        ]
+      }
+    ],
+    "bo": "車（bộ Xa/くるまへん） + 冖（bộ Mịch/わかんむり） + 八",
+    "svg": {
+      "codepoint_hex": "08ecd",
+      "path": "resources/kanji_svg/08ecd.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.567217+00:00"
+  },
+  {
+    "chu": "団",
+    "hanViet": "ĐOÀN",
+    "nghia": "đoàn, nhóm; tổ chức",
+    "on": [
+      {
+        "am": "ダン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "団体",
+            "hiragana": "だんたい",
+            "nghia": "đoàn thể, tổ chức"
+          },
+          {
+            "tu": "集団",
+            "hiragana": "しゅうだん",
+            "nghia": "tập đoàn, nhóm"
+          },
+          {
+            "tu": "団地",
+            "hiragana": "だんち",
+            "nghia": "khu tập thể, chung cư"
+          }
+        ]
+      },
+      {
+        "am": "トン",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "kun": [],
+    "bo": "囗（bộ Vi/くにがまえ） + 寸（bộ Thốn/すん）",
+    "svg": {
+      "codepoint_hex": "056e3",
+      "path": "resources/kanji_svg/056e3.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.568225+00:00"
+  },
+  {
+    "chu": "各",
+    "hanViet": "CÁC",
+    "nghia": "mỗi, từng; các ~",
+    "on": [
+      {
+        "am": "カク",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "各国",
+            "hiragana": "かっこく",
+            "nghia": "các nước"
+          },
+          {
+            "tu": "各地",
+            "hiragana": "かくち",
+            "nghia": "các nơi"
+          },
+          {
+            "tu": "各自",
+            "hiragana": "かくじ",
+            "nghia": "mỗi người, tự mỗi người"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "おのおの",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "各々",
+            "hiragana": "おのおの",
+            "nghia": "mỗi người, từng cái"
+          }
+        ]
+      }
+    ],
+    "bo": "夂（bộ Truy/のぶん） + 口（bộ Khẩu/くち）",
+    "svg": {
+      "codepoint_hex": "05404",
+      "path": "resources/kanji_svg/05404.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.569157+00:00"
+  },
+  {
+    "chu": "島",
+    "hanViet": "ĐẢO",
+    "nghia": "đảo, hòn đảo",
+    "on": [
+      {
+        "am": "トウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "半島",
+            "hiragana": "はんとう",
+            "nghia": "bán đảo"
+          },
+          {
+            "tu": "列島",
+            "hiragana": "れっとう",
+            "nghia": "quần đảo"
+          },
+          {
+            "tu": "島民",
+            "hiragana": "とうみん",
+            "nghia": "dân đảo"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "しま",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "島",
+            "hiragana": "しま",
+            "nghia": "đảo, hòn đảo"
+          },
+          {
+            "tu": "島国",
+            "hiragana": "しまぐに",
+            "nghia": "quốc đảo"
+          }
+        ]
+      }
+    ],
+    "bo": "山（bộ Sơn/やま） + 鳥（bộ Điểu/とり）",
+    "svg": {
+      "codepoint_hex": "05cf6",
+      "path": "resources/kanji_svg/05cf6.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.569979+00:00"
+  },
+  {
+    "chu": "革",
+    "hanViet": "CÁCH",
+    "nghia": "da (thuộc); cách mạng, thay đổi lớn",
+    "on": [
+      {
+        "am": "カク",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "革命",
+            "hiragana": "かくめい",
+            "nghia": "cách mạng"
+          },
+          {
+            "tu": "改革",
+            "hiragana": "かいかく",
+            "nghia": "cải cách"
+          },
+          {
+            "tu": "革新",
+            "hiragana": "かくしん",
+            "nghia": "đổi mới"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "かわ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "革",
+            "hiragana": "かわ",
+            "nghia": "da (thuộc)"
+          },
+          {
+            "tu": "皮革",
+            "hiragana": "ひかく",
+            "nghia": "da, đồ da"
+          }
+        ]
+      }
+    ],
+    "bo": "革（bộ Cách/かわ）",
+    "svg": {
+      "codepoint_hex": "09769",
+      "path": "resources/kanji_svg/09769.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.570695+00:00"
+  },
+  {
+    "chu": "村",
+    "hanViet": "THÔN",
+    "nghia": "làng, thôn",
+    "on": [
+      {
+        "am": "ソン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "農村",
+            "hiragana": "のうそん",
+            "nghia": "nông thôn"
+          },
+          {
+            "tu": "漁村",
+            "hiragana": "ぎょそん",
+            "nghia": "làng chài"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "むら",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "村",
+            "hiragana": "むら",
+            "nghia": "làng, thôn"
+          },
+          {
+            "tu": "山村",
+            "hiragana": "さんそん",
+            "nghia": "làng trên núi"
+          }
+        ]
+      }
+    ],
+    "bo": "木（bộ Mộc/き） + 寸（bộ Thốn/すん）",
+    "svg": {
+      "codepoint_hex": "06751",
+      "path": "resources/kanji_svg/06751.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.571440+00:00"
+  },
+  {
+    "chu": "勢",
+    "hanViet": "THẾ",
+    "nghia": "khí thế, thế lực; sức mạnh",
+    "on": [
+      {
+        "am": "セイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "大勢",
+            "hiragana": "おおぜい",
+            "nghia": "nhiều người"
+          },
+          {
+            "tu": "情勢",
+            "hiragana": "じょうせい",
+            "nghia": "tình thế, tình hình"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "いきお(い)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "勢い",
+            "hiragana": "いきおい",
+            "nghia": "khí thế, sức mạnh, đà"
+          }
+        ]
+      }
+    ],
+    "bo": "力（bộ Lực/ちから） + 埶（nghệ）",
+    "svg": {
+      "codepoint_hex": "052e2",
+      "path": "resources/kanji_svg/052e2.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.572220+00:00"
+  },
+  {
+    "chu": "減",
+    "hanViet": "GIẢM",
+    "nghia": "giảm, bớt; suy giảm",
+    "on": [
+      {
+        "am": "ゲン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "減少",
+            "hiragana": "げんしょう",
+            "nghia": "giảm bớt"
+          },
+          {
+            "tu": "低減",
+            "hiragana": "ていげん",
+            "nghia": "giảm xuống, cắt giảm"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "へ(る)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "減る",
+            "hiragana": "へる",
+            "nghia": "giảm, ít đi"
+          },
+          {
+            "tu": "減らす",
+            "hiragana": "へらす",
+            "nghia": "làm giảm, bớt"
+          }
+        ]
+      },
+      {
+        "am": "へ(らす)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "氵（bộ Thủy/さんずい） + 咸（hàm）",
+    "svg": {
+      "codepoint_hex": "06e1b",
+      "path": "resources/kanji_svg/06e1b.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.573333+00:00"
+  },
+  {
+    "chu": "無",
+    "hanViet": "VÔ",
+    "nghia": "không có, vô ~; không, chẳng",
+    "on": [
+      {
+        "am": "ム",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "無理",
+            "hiragana": "むり",
+            "nghia": "vô lý; quá sức"
+          },
+          {
+            "tu": "無料",
+            "hiragana": "むりょう",
+            "nghia": "miễn phí"
+          },
+          {
+            "tu": "無意味",
+            "hiragana": "むいみ",
+            "nghia": "vô nghĩa"
+          }
+        ]
+      },
+      {
+        "am": "ブ",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "な(い)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "無い",
+            "hiragana": "ない",
+            "nghia": "không có"
+          },
+          {
+            "tu": "無くす",
+            "hiragana": "なくす",
+            "nghia": "làm mất, xóa bỏ"
+          }
+        ]
+      }
+    ],
+    "bo": "无（vô） + 灬（bộ Hỏa/れっか）",
+    "svg": {
+      "codepoint_hex": "07121",
+      "path": "resources/kanji_svg/07121.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.574130+00:00"
+  },
+  {
+    "chu": "再",
+    "hanViet": "TÁI",
+    "nghia": "lại, lần nữa; tái ~",
+    "on": [
+      {
+        "am": "サイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "再会",
+            "hiragana": "さいかい",
+            "nghia": "gặp lại"
+          },
+          {
+            "tu": "再開",
+            "hiragana": "さいかい",
+            "nghia": "mở lại, hoạt động lại"
+          },
+          {
+            "tu": "再利用",
+            "hiragana": "さいりよう",
+            "nghia": "tái sử dụng"
+          }
+        ]
+      },
+      {
+        "am": "サ",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "ふたた(び)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "再び",
+            "hiragana": "ふたたび",
+            "nghia": "lần nữa, một lần nữa"
+          }
+        ]
+      }
+    ],
+    "bo": "冄 + 冂（quynh）",
+    "svg": {
+      "codepoint_hex": "0518d",
+      "path": "resources/kanji_svg/0518d.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.575147+00:00"
+  },
+  {
+    "chu": "税",
+    "hanViet": "THUẾ",
+    "nghia": "thuế, tiền thuế",
+    "on": [
+      {
+        "am": "ゼイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "税金",
+            "hiragana": "ぜいきん",
+            "nghia": "tiền thuế"
+          },
+          {
+            "tu": "所得税",
+            "hiragana": "しょとくぜい",
+            "nghia": "thuế thu nhập"
+          },
+          {
+            "tu": "消費税",
+            "hiragana": "しょうひぜい",
+            "nghia": "thuế tiêu dùng"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "禾（bộ Hòa/のぎ） + 兌（đoái）",
+    "svg": {
+      "codepoint_hex": "07a0e",
+      "path": "resources/kanji_svg/07a0e.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.576327+00:00"
+  },
+  {
+    "chu": "営",
+    "hanViet": "DOANH",
+    "nghia": "kinh doanh, điều hành; doanh trại",
+    "on": [
+      {
+        "am": "エイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "営業",
+            "hiragana": "えいぎょう",
+            "nghia": "kinh doanh, mở cửa (bán hàng)"
+          },
+          {
+            "tu": "経営",
+            "hiragana": "けいえい",
+            "nghia": "kinh doanh, quản trị"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "いとな(む)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "営む",
+            "hiragana": "いとなむ",
+            "nghia": "kinh doanh; điều hành"
+          }
+        ]
+      }
+    ],
+    "bo": "宀（bộ Miên/うかんむり） + 䧹（doanh）",
+    "svg": {
+      "codepoint_hex": "055b6",
+      "path": "resources/kanji_svg/055b6.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.577471+00:00"
+  },
+  {
+    "chu": "可",
+    "hanViet": "KHẢ",
+    "nghia": "có thể, được phép; khả năng",
+    "on": [
+      {
+        "am": "カ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "可能",
+            "hiragana": "かのう",
+            "nghia": "có thể, khả thi"
+          },
+          {
+            "tu": "可決",
+            "hiragana": "かけつ",
+            "nghia": "thông qua (nghị quyết)"
+          },
+          {
+            "tu": "可愛い",
+            "hiragana": "かわいい",
+            "nghia": "dễ thương (dùng 可 trong 可愛い)"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "口（bộ Khẩu/くち） + 丂",
+    "svg": {
+      "codepoint_hex": "053ef",
+      "path": "resources/kanji_svg/053ef.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.578295+00:00"
+  },
+  {
+    "chu": "身",
+    "hanViet": "THÂN",
+    "nghia": "thân thể; bản thân; dáng người",
+    "on": [
+      {
+        "am": "シン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "身体",
+            "hiragana": "しんたい",
+            "nghia": "cơ thể"
+          },
+          {
+            "tu": "独身",
+            "hiragana": "どくしん",
+            "nghia": "độc thân"
+          },
+          {
+            "tu": "出身",
+            "hiragana": "しゅっしん",
+            "nghia": "xuất thân"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "み",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "身",
+            "hiragana": "み",
+            "nghia": "thân, bản thân; thịt (trong cá, trái cây)"
+          },
+          {
+            "tu": "身分",
+            "hiragana": "みぶん",
+            "nghia": "thân phận, địa vị"
+          }
+        ]
+      }
+    ],
+    "bo": "身（bộ Thân/み）",
+    "svg": {
+      "codepoint_hex": "08eab",
+      "path": "resources/kanji_svg/08eab.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.579306+00:00"
+  },
+  {
+    "chu": "比",
+    "hanViet": "BỈ",
+    "nghia": "so sánh; hơn, kém",
+    "on": [
+      {
+        "am": "ヒ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "比較",
+            "hiragana": "ひかく",
+            "nghia": "so sánh"
+          },
+          {
+            "tu": "対比",
+            "hiragana": "たいひ",
+            "nghia": "đối chiếu, tỉ dụ"
+          },
+          {
+            "tu": "比率",
+            "hiragana": "ひりつ",
+            "nghia": "tỉ lệ"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "くら(べる)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "比べる",
+            "hiragana": "くらべる",
+            "nghia": "so sánh"
+          }
+        ]
+      }
+    ],
+    "bo": "比（bộ Bỉ/くらべる）",
+    "svg": {
+      "codepoint_hex": "06bd4",
+      "path": "resources/kanji_svg/06bd4.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.580380+00:00"
+  },
+  {
+    "chu": "防",
+    "hanViet": "PHÒNG",
+    "nghia": "phòng tránh; ngừa",
+    "on": [
+      {
+        "am": "ボウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "防止",
+            "hiragana": "ぼうし",
+            "nghia": "phòng, ngăn chặn"
+          },
+          {
+            "tu": "予防",
+            "hiragana": "よぼう",
+            "nghia": "phòng ngừa"
+          },
+          {
+            "tu": "消防",
+            "hiragana": "しょうぼう",
+            "nghia": "cứu hỏa"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "ふせ(ぐ)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "防ぐ",
+            "hiragana": "ふせぐ",
+            "nghia": "phòng, ngăn ngừa; che chắn"
+          }
+        ]
+      }
+    ],
+    "bo": "阝（bộ Phụ/こざとへん） + 方（bộ Phương/ほう）",
+    "svg": {
+      "codepoint_hex": "09632",
+      "path": "resources/kanji_svg/09632.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.581469+00:00"
+  },
+  {
+    "chu": "補",
+    "hanViet": "BỔ",
+    "nghia": "bổ sung, bù đắp; trợ",
+    "on": [
+      {
+        "am": "ホ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "補助",
+            "hiragana": "ほじょ",
+            "nghia": "hỗ trợ, trợ giúp"
+          },
+          {
+            "tu": "候補",
+            "hiragana": "こうほ",
+            "nghia": "ứng cử viên"
+          },
+          {
+            "tu": "補習",
+            "hiragana": "ほしゅう",
+            "nghia": "học bù, học phụ đạo"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "おぎな(う)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "補う",
+            "hiragana": "おぎなう",
+            "nghia": "bù đắp, bổ sung"
+          }
+        ]
+      }
+    ],
+    "bo": "衤（bộ Y/ころもへん） + 甫（phủ）",
+    "svg": {
+      "codepoint_hex": "088dc",
+      "path": "resources/kanji_svg/088dc.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.582392+00:00"
+  },
+  {
+    "chu": "境",
+    "hanViet": "CẢNH",
+    "nghia": "ranh giới; bờ cõi; hoàn cảnh",
+    "on": [
+      {
+        "am": "キョウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "境界",
+            "hiragana": "きょうかい",
+            "nghia": "ranh giới, khoảng phân cách"
+          },
+          {
+            "tu": "環境",
+            "hiragana": "かんきょう",
+            "nghia": "môi trường"
+          },
+          {
+            "tu": "心境",
+            "hiragana": "しんきょう",
+            "nghia": "tâm trạng, tâm cảnh"
+          }
+        ]
+      },
+      {
+        "am": "ケイ",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "さかい",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "境",
+            "hiragana": "さかい",
+            "nghia": "ranh giới, biên giới"
+          }
+        ]
+      }
+    ],
+    "bo": "土（bộ Thổ/つち） + 竟（cánh）",
+    "svg": {
+      "codepoint_hex": "05883",
+      "path": "resources/kanji_svg/05883.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.583127+00:00"
+  },
+  {
+    "chu": "導",
+    "hanViet": "ĐẠO",
+    "nghia": "dẫn dắt, chỉ đường; hướng dẫn",
+    "on": [
+      {
+        "am": "ドウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "指導",
+            "hiragana": "しどう",
+            "nghia": "chỉ đạo, hướng dẫn"
+          },
+          {
+            "tu": "導入",
+            "hiragana": "どうにゅう",
+            "nghia": "đưa vào, áp dụng"
+          },
+          {
+            "tu": "導線",
+            "hiragana": "どうせん",
+            "nghia": "dây dẫn (điện)"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "みちび(く)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "導く",
+            "hiragana": "みちびく",
+            "nghia": "dẫn dắt, chỉ đường"
+          }
+        ]
+      }
+    ],
+    "bo": "寸（bộ Thốn/すん） + 道（đạo）",
+    "svg": {
+      "codepoint_hex": "05c0e",
+      "path": "resources/kanji_svg/05c0e.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.584061+00:00"
+  },
+  {
+    "chu": "副",
+    "hanViet": "PHÓ",
+    "nghia": "phó, phụ; thứ",
+    "on": [
+      {
+        "am": "フク",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "副社長",
+            "hiragana": "ふくしゃちょう",
+            "nghia": "phó giám đốc"
+          },
+          {
+            "tu": "副作用",
+            "hiragana": "ふくさよう",
+            "nghia": "tác dụng phụ"
+          },
+          {
+            "tu": "副詞",
+            "hiragana": "ふくし",
+            "nghia": "phó từ"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "田（bộ Điền/た） + 夂（bộ Truy/のぶん）",
+    "svg": {
+      "codepoint_hex": "0526f",
+      "path": "resources/kanji_svg/0526f.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.584776+00:00"
+  },
+  {
+    "chu": "算",
+    "hanViet": "TOÁN",
+    "nghia": "tính, phép tính; toán học",
+    "on": [
+      {
+        "am": "サン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "足し算",
+            "hiragana": "たしざん",
+            "nghia": "phép cộng"
+          },
+          {
+            "tu": "計算",
+            "hiragana": "けいさん",
+            "nghia": "tính toán"
+          },
+          {
+            "tu": "算数",
+            "hiragana": "さんすう",
+            "nghia": "môn toán (cấp 1)"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "⺮（bộ Trúc/たけかんむり） + 目（bộ Mục/め） + 廾（bộ Củng/こまぬき）",
+    "svg": {
+      "codepoint_hex": "07b97",
+      "path": "resources/kanji_svg/07b97.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.585411+00:00"
+  },
+  {
+    "chu": "輸",
+    "hanViet": "THÂU",
+    "nghia": "chuyên chở; xuất nhập khẩu",
+    "on": [
+      {
+        "am": "ユ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "輸入",
+            "hiragana": "ゆにゅう",
+            "nghia": "nhập khẩu"
+          },
+          {
+            "tu": "輸出",
+            "hiragana": "ゆしゅつ",
+            "nghia": "xuất khẩu"
+          },
+          {
+            "tu": "輸送",
+            "hiragana": "ゆそう",
+            "nghia": "vận chuyển"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "車（bộ Xa/くるまへん） + 兪（du）",
+    "svg": {
+      "codepoint_hex": "08f38",
+      "path": "resources/kanji_svg/08f38.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.586078+00:00"
+  },
+  {
+    "chu": "述",
+    "hanViet": "THUẬT",
+    "nghia": "kể, thuật lại; trình bày",
+    "on": [
+      {
+        "am": "ジュツ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "述語",
+            "hiragana": "じゅつご",
+            "nghia": "vị ngữ"
+          },
+          {
+            "tu": "述懐",
+            "hiragana": "じゅっかい／じゅっかい",
+            "nghia": "bộc bạch nỗi lòng"
+          },
+          {
+            "tu": "記述",
+            "hiragana": "きじゅつ",
+            "nghia": "ghi chép, miêu tả"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "の(べる)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "述べる",
+            "hiragana": "のべる",
+            "nghia": "nói, kể, trình bày"
+          }
+        ]
+      }
+    ],
+    "bo": "朮 + 辶（bộ Sước/しんにょう）",
+    "svg": {
+      "codepoint_hex": "08ff0",
+      "path": "resources/kanji_svg/08ff0.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.586829+00:00"
+  },
+  {
+    "chu": "線",
+    "hanViet": "TUYẾN",
+    "nghia": "đường thẳng, tuyến; dây (điện, điện thoại)",
+    "on": [
+      {
+        "am": "セン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "線路",
+            "hiragana": "せんろ",
+            "nghia": "đường ray tàu"
+          },
+          {
+            "tu": "電線",
+            "hiragana": "でんせん",
+            "nghia": "dây điện"
+          },
+          {
+            "tu": "線",
+            "hiragana": "せん",
+            "nghia": "đường kẻ, tuyến"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "糸（bộ Mịch/いとへん） + 泉（tuyền）",
+    "svg": {
+      "codepoint_hex": "07dda",
+      "path": "resources/kanji_svg/07dda.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.587605+00:00"
+  },
+  {
+    "chu": "農",
+    "hanViet": "NÔNG",
+    "nghia": "nông nghiệp; người nông dân",
+    "on": [
+      {
+        "am": "ノウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "農業",
+            "hiragana": "のうぎょう",
+            "nghia": "nông nghiệp"
+          },
+          {
+            "tu": "農家",
+            "hiragana": "のうか",
+            "nghia": "nhà nông, nông dân"
+          },
+          {
+            "tu": "農村",
+            "hiragana": "のうそん",
+            "nghia": "vùng nông thôn"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "曲（khúc） + 辰（thần）",
+    "svg": {
+      "codepoint_hex": "08fb2",
+      "path": "resources/kanji_svg/08fb2.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.588523+00:00"
+  },
+  {
+    "chu": "州",
+    "hanViet": "CHÂU",
+    "nghia": "bang, châu; vùng đất bao quanh bởi nước",
+    "on": [
+      {
+        "am": "シュウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "九州",
+            "hiragana": "きゅうしゅう",
+            "nghia": "Kyushu"
+          },
+          {
+            "tu": "本州",
+            "hiragana": "ほんしゅう",
+            "nghia": "đảo Honshu"
+          },
+          {
+            "tu": "州立",
+            "hiragana": "しゅうりつ",
+            "nghia": "thuộc bang"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "す",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "州",
+            "hiragana": "す",
+            "nghia": "bãi cát giữa sông (ít dùng)"
+          }
+        ]
+      }
+    ],
+    "bo": "川（bộ Xuyên/かわ） tách ba nhánh",
+    "svg": {
+      "codepoint_hex": "05dde",
+      "path": "resources/kanji_svg/05dde.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.589381+00:00"
+  },
+  {
+    "chu": "武",
+    "hanViet": "VŨ",
+    "nghia": "vũ lực, vũ trang; võ",
+    "on": [
+      {
+        "am": "ブ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "武士",
+            "hiragana": "ぶし",
+            "nghia": "võ sĩ"
+          },
+          {
+            "tu": "武道",
+            "hiragana": "ぶどう",
+            "nghia": "võ đạo"
+          },
+          {
+            "tu": "武力",
+            "hiragana": "ぶりょく",
+            "nghia": "vũ lực"
+          }
+        ]
+      },
+      {
+        "am": "ム",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "たけ(し)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "武しい",
+            "hiragana": "たけしい",
+            "nghia": "dũng mãnh"
+          }
+        ]
+      }
+    ],
+    "bo": "一（bộ Nhất/いち） + 弋（dặc） + 止（bộ Chỉ/とまる）",
+    "svg": {
+      "codepoint_hex": "06b66",
+      "path": "resources/kanji_svg/06b66.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.590029+00:00"
+  },
+  {
+    "chu": "象",
+    "hanViet": "TƯỢNG",
+    "nghia": "hình tượng; con voi; biểu tượng",
+    "on": [
+      {
+        "am": "ショウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "象徴",
+            "hiragana": "しょうちょう",
+            "nghia": "biểu tượng"
+          },
+          {
+            "tu": "印象",
+            "hiragana": "いんしょう",
+            "nghia": "ấn tượng"
+          },
+          {
+            "tu": "気象",
+            "hiragana": "きしょう",
+            "nghia": "khí tượng"
+          }
+        ]
+      },
+      {
+        "am": "ゾウ",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "かたど(る)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "かたどる(tr-v): mô phỏng",
+            "hiragana": "",
+            "nghia": ""
+          },
+          {
+            "tu": "tượng trưng",
+            "hiragana": "ít dùng",
+            "nghia": ""
+          }
+        ]
+      }
+    ],
+    "bo": "象（bộ Tượng/ぞう）",
+    "svg": {
+      "codepoint_hex": "08c61",
+      "path": "resources/kanji_svg/08c61.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.591621+00:00"
+  },
+  {
+    "chu": "域",
+    "hanViet": "VỰC",
+    "nghia": "khu vực; phạm vi",
+    "on": [
+      {
+        "am": "イキ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "地域",
+            "hiragana": "ちいき",
+            "nghia": "khu vực"
+          },
+          {
+            "tu": "領域",
+            "hiragana": "りょういき",
+            "nghia": "lãnh vực, phạm vi"
+          },
+          {
+            "tu": "区域",
+            "hiragana": "くいき",
+            "nghia": "khu, vùng"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "土（bộ Thổ/つち） + 或（hoặc）",
+    "svg": {
+      "codepoint_hex": "057df",
+      "path": "resources/kanji_svg/057df.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.592295+00:00"
+  },
+  {
+    "chu": "額",
+    "hanViet": "NGẠCH",
+    "nghia": "số tiền, mức; trán",
+    "on": [
+      {
+        "am": "ガク",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "金額",
+            "hiragana": "きんがく",
+            "nghia": "số tiền"
+          },
+          {
+            "tu": "額",
+            "hiragana": "がく",
+            "nghia": "khung (tranh), tổng số"
+          },
+          {
+            "tu": "半額",
+            "hiragana": "はんがく",
+            "nghia": "nửa giá"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "ひたい",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "額",
+            "hiragana": "ひたい",
+            "nghia": "trán"
+          }
+        ]
+      }
+    ],
+    "bo": "客（khách） + 頁（bộ Hiệt/おおがい）",
+    "svg": {
+      "codepoint_hex": "0984d",
+      "path": "resources/kanji_svg/0984d.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.592958+00:00"
+  },
+  {
+    "chu": "欧",
+    "hanViet": "ÂU",
+    "nghia": "châu Âu",
+    "on": [
+      {
+        "am": "オウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "欧州",
+            "hiragana": "おうしゅう",
+            "nghia": "châu Âu"
+          },
+          {
+            "tu": "欧米",
+            "hiragana": "おうべい",
+            "nghia": "Âu Mỹ"
+          },
+          {
+            "tu": "北欧",
+            "hiragana": "ほくおう",
+            "nghia": "Bắc Âu"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "区（khu） + 欠（bộ Khiếm/あくび）",
+    "svg": {
+      "codepoint_hex": "06b27",
+      "path": "resources/kanji_svg/06b27.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.593803+00:00"
+  },
+  {
+    "chu": "担",
+    "hanViet": "ĐAM",
+    "nghia": "đảm đương, gánh vác; mang",
+    "on": [
+      {
+        "am": "タン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "担当",
+            "hiragana": "たんとう",
+            "nghia": "phụ trách, đảm nhiệm"
+          },
+          {
+            "tu": "負担",
+            "hiragana": "ふたん",
+            "nghia": "gánh nặng, gánh vác"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "かつ(ぐ)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "担ぐ",
+            "hiragana": "かつぐ",
+            "nghia": "vác lên, khiêng; mê tín (tin một cách mù quáng)"
+          },
+          {
+            "tu": "担う",
+            "hiragana": "になう",
+            "nghia": "gánh vác, đảm nhiệm"
+          }
+        ]
+      },
+      {
+        "am": "にな(う)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "扌（bộ Thủ/てへん） + 旦（đán）",
+    "svg": {
+      "codepoint_hex": "062c5",
+      "path": "resources/kanji_svg/062c5.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.594734+00:00"
+  },
+  {
+    "chu": "準",
+    "hanViet": "CHUẨN",
+    "nghia": "chuẩn bị; chuẩn mực; tương đương",
+    "on": [
+      {
+        "am": "ジュン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "準備",
+            "hiragana": "じゅんび",
+            "nghia": "chuẩn bị"
+          },
+          {
+            "tu": "基準",
+            "hiragana": "きじゅん",
+            "nghia": "tiêu chuẩn"
+          },
+          {
+            "tu": "標準",
+            "hiragana": "ひょうじゅん",
+            "nghia": "tiêu chuẩn, mức chuẩn"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "氵（bộ Thủy/さんずい） + 隼（chuẩn）",
+    "svg": {
+      "codepoint_hex": "06e96",
+      "path": "resources/kanji_svg/06e96.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.595617+00:00"
+  },
+  {
+    "chu": "賞",
+    "hanViet": "THƯỞNG",
+    "nghia": "phần thưởng; khen thưởng",
+    "on": [
+      {
+        "am": "ショウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "賞金",
+            "hiragana": "しょうきん",
+            "nghia": "tiền thưởng"
+          },
+          {
+            "tu": "賞品",
+            "hiragana": "しょうひん",
+            "nghia": "phần thưởng (vật)"
+          },
+          {
+            "tu": "受賞",
+            "hiragana": "じゅしょう",
+            "nghia": "nhận giải thưởng"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "貝（bộ Bối/かい） + 尚（thượng）",
+    "svg": {
+      "codepoint_hex": "08cde",
+      "path": "resources/kanji_svg/08cde.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.596654+00:00"
+  },
+  {
+    "chu": "辺",
+    "hanViet": "BIÊN",
+    "nghia": "vùng, xung quanh; bờ",
+    "on": [
+      {
+        "am": "ヘン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "周辺",
+            "hiragana": "しゅうへん",
+            "nghia": "vùng xung quanh"
+          },
+          {
+            "tu": "海辺",
+            "hiragana": "うみべ",
+            "nghia": "bờ biển"
+          },
+          {
+            "tu": "辺境",
+            "hiragana": "へんきょう",
+            "nghia": "vùng xa xôi hẻo lánh"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "あた(り)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "辺り",
+            "hiragana": "あたり",
+            "nghia": "vùng quanh, khu vực gần"
+          },
+          {
+            "tu": "この辺",
+            "hiragana": "このへん",
+            "nghia": "quanh đây"
+          }
+        ]
+      },
+      {
+        "am": "べ",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "辶（bộ Sước/しんにょう） + 刀（bộ Đao/かたな）",
+    "svg": {
+      "codepoint_hex": "08fba",
+      "path": "resources/kanji_svg/08fba.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.598035+00:00"
+  },
+  {
+    "chu": "造",
+    "hanViet": "TẠO",
+    "nghia": "tạo ra, chế tạo; xây dựng",
+    "on": [
+      {
+        "am": "ゾウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "木造",
+            "hiragana": "もくぞう",
+            "nghia": "làm bằng gỗ"
+          },
+          {
+            "tu": "製造",
+            "hiragana": "せいぞう",
+            "nghia": "chế tạo"
+          },
+          {
+            "tu": "建造",
+            "hiragana": "けんぞう",
+            "nghia": "xây dựng (công trình lớn)"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "つく(る)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "造る",
+            "hiragana": "つくる",
+            "nghia": "làm, chế tạo (nhà cửa, rượu, tàu thuyền...)"
+          }
+        ]
+      }
+    ],
+    "bo": "辶（bộ Sước/しんにょう） + 告（cáo）",
+    "svg": {
+      "codepoint_hex": "09020",
+      "path": "resources/kanji_svg/09020.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.599263+00:00"
+  },
+  {
+    "chu": "被",
+    "hanViet": "BỊ",
+    "nghia": "bị, chịu; bị phủ; chăn, áo khoác",
+    "on": [
+      {
+        "am": "ヒ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "被害",
+            "hiragana": "ひがい",
+            "nghia": "thiệt hại"
+          },
+          {
+            "tu": "被災",
+            "hiragana": "ひさい",
+            "nghia": "bị thiên tai"
+          },
+          {
+            "tu": "被告",
+            "hiragana": "ひこく",
+            "nghia": "bị cáo"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "こうむ(る)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "被る",
+            "hiragana": "こうむる",
+            "nghia": "chịu, bị (tổn thất, thiệt hại...)"
+          },
+          {
+            "tu": "被る",
+            "hiragana": "かぶる",
+            "nghia": "đội (mũ), trùm, khoác (chữ khác)"
+          }
+        ]
+      },
+      {
+        "am": "おお(う)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "衤（bộ Y/ころもへん） + 皮（bộ Bì/かわ）",
+    "svg": {
+      "codepoint_hex": "088ab",
+      "path": "resources/kanji_svg/088ab.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.600245+00:00"
+  },
+  {
+    "chu": "技",
+    "hanViet": "KĨ",
+    "nghia": "kỹ năng, kỹ thuật; tay nghề",
+    "on": [
+      {
+        "am": "ギ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "技術",
+            "hiragana": "ぎじゅつ",
+            "nghia": "kỹ thuật"
+          },
+          {
+            "tu": "技能",
+            "hiragana": "ぎのう",
+            "nghia": "kỹ năng"
+          },
+          {
+            "tu": "特技",
+            "hiragana": "とくぎ",
+            "nghia": "sở trường, tài lẻ"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "わざ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "技",
+            "hiragana": "わざ",
+            "nghia": "kỹ, kỹ năng"
+          },
+          {
+            "tu": "技を磨く",
+            "hiragana": "わざをみがく",
+            "nghia": "mài giũa kỹ năng"
+          }
+        ]
+      }
+    ],
+    "bo": "扌（bộ Thủ/てへん） + 支（chi）",
+    "svg": {
+      "codepoint_hex": "06280",
+      "path": "resources/kanji_svg/06280.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.601625+00:00"
+  },
+  {
+    "chu": "低",
+    "hanViet": "ĐÊ",
+    "nghia": "thấp; thấp kém",
+    "on": [
+      {
+        "am": "テイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "低下",
+            "hiragana": "ていか",
+            "nghia": "giảm xuống"
+          },
+          {
+            "tu": "低学年",
+            "hiragana": "ていがくねん",
+            "nghia": "khối lớp nhỏ"
+          },
+          {
+            "tu": "低料金",
+            "hiragana": "ていりょうきん",
+            "nghia": "giá thấp"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "ひく(い)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "低い",
+            "hiragana": "ひくい",
+            "nghia": "thấp"
+          },
+          {
+            "tu": "低める",
+            "hiragana": "ひくめる",
+            "nghia": "hạ thấp"
+          },
+          {
+            "tu": "低まる",
+            "hiragana": "ひくまる",
+            "nghia": "trở nên thấp đi"
+          }
+        ]
+      },
+      {
+        "am": "ひく(める)",
+        "nghia": "",
+        "viDu": []
+      },
+      {
+        "am": "ひく(まる)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "亻（bộ Nhân đứng/にんべん） + 氐（đê）",
+    "svg": {
+      "codepoint_hex": "04f4e",
+      "path": "resources/kanji_svg/04f4e.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.602682+00:00"
+  },
+  {
+    "chu": "復",
+    "hanViet": "PHỤC",
+    "nghia": "trở lại; phục hồi; lặp lại",
+    "on": [
+      {
+        "am": "フク",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "復習",
+            "hiragana": "ふくしゅう",
+            "nghia": "ôn bài, ôn tập"
+          },
+          {
+            "tu": "往復",
+            "hiragana": "おうふく",
+            "nghia": "khứ hồi, đi về"
+          },
+          {
+            "tu": "回復",
+            "hiragana": "かいふく",
+            "nghia": "hồi phục"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "また",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "また(adv): lại",
+            "hiragana": "",
+            "nghia": ""
+          },
+          {
+            "tu": "lại nữa",
+            "hiragana": "thường viết 全部 kana",
+            "nghia": ""
+          }
+        ]
+      }
+    ],
+    "bo": "彳（bộ Xích/ぎょうにんべん） + 復（phục）",
+    "svg": {
+      "codepoint_hex": "05fa9",
+      "path": "resources/kanji_svg/05fa9.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.603657+00:00"
+  },
+  {
+    "chu": "移",
+    "hanViet": "DI",
+    "nghia": "di chuyển, dời; chuyển giao",
+    "on": [
+      {
+        "am": "イ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "移動",
+            "hiragana": "いどう",
+            "nghia": "di chuyển"
+          },
+          {
+            "tu": "転移",
+            "hiragana": "てんい",
+            "nghia": "di căn, dời chỗ"
+          },
+          {
+            "tu": "移民",
+            "hiragana": "いみん",
+            "nghia": "dân di cư"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "うつ(る)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "移る",
+            "hiragana": "うつる",
+            "nghia": "chuyển, di chuyển, lây (bệnh)"
+          },
+          {
+            "tu": "移す",
+            "hiragana": "うつす",
+            "nghia": "chuyển, dời; lây (bệnh)"
+          }
+        ]
+      },
+      {
+        "am": "うつ(す)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "禾（bộ Hòa/のぎ） + 多（đa）",
+    "svg": {
+      "codepoint_hex": "079fb",
+      "path": "resources/kanji_svg/079fb.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.604736+00:00"
+  },
+  {
+    "chu": "個",
+    "hanViet": "CÁ",
+    "nghia": "cái (lượng từ); cá nhân",
+    "on": [
+      {
+        "am": "コ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "一個",
+            "hiragana": "いっこ",
+            "nghia": "một cái (đồ vật nhỏ)"
+          },
+          {
+            "tu": "個人",
+            "hiragana": "こじん",
+            "nghia": "cá nhân"
+          },
+          {
+            "tu": "個性",
+            "hiragana": "こせい",
+            "nghia": "cá tính"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "亻（bộ Nhân đứng/にんべん） + 固（cố）",
+    "svg": {
+      "codepoint_hex": "0500b",
+      "path": "resources/kanji_svg/0500b.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.605769+00:00"
+  },
+  {
+    "chu": "門",
+    "hanViet": "MÔN",
+    "nghia": "cổng; môn, phái",
+    "on": [
+      {
+        "am": "モン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "専門",
+            "hiragana": "せんもん",
+            "nghia": "chuyên môn"
+          },
+          {
+            "tu": "校門",
+            "hiragana": "こうもん",
+            "nghia": "cổng trường"
+          },
+          {
+            "tu": "入門",
+            "hiragana": "にゅうもん",
+            "nghia": "nhập môn, vỡ lòng"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "かど",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "門",
+            "hiragana": "かど",
+            "nghia": "cổng, cửa"
+          }
+        ]
+      }
+    ],
+    "bo": "門（bộ Môn/もんがまえ）",
+    "svg": {
+      "codepoint_hex": "09580",
+      "path": "resources/kanji_svg/09580.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.606381+00:00"
+  },
+  {
+    "chu": "課",
+    "hanViet": "KHÓA",
+    "nghia": "bài (học); phòng ban, bộ phận",
+    "on": [
+      {
+        "am": "カ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "課",
+            "hiragana": "か",
+            "nghia": "phòng, ban"
+          },
+          {
+            "tu": "課長",
+            "hiragana": "かちょう",
+            "nghia": "trưởng phòng"
+          },
+          {
+            "tu": "課題",
+            "hiragana": "かだい",
+            "nghia": "đề tài, bài tập; vấn đề"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "言（bộ Ngôn/ごんべん） + 果（quả）",
+    "svg": {
+      "codepoint_hex": "08ab2",
+      "path": "resources/kanji_svg/08ab2.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.607069+00:00"
+  },
+  {
+    "chu": "脳",
+    "hanViet": "NÃO",
+    "nghia": "não bộ; trí óc",
+    "on": [
+      {
+        "am": "ノウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "脳",
+            "hiragana": "のう",
+            "nghia": "não"
+          },
+          {
+            "tu": "頭脳",
+            "hiragana": "ずのう",
+            "nghia": "đầu óc, trí tuệ"
+          },
+          {
+            "tu": "脳梗塞",
+            "hiragana": "のうこうそく",
+            "nghia": "nhồi máu não"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "月（bộ Nguyệt/にくづき） + 囟 + 巛",
+    "svg": {
+      "codepoint_hex": "08133",
+      "path": "resources/kanji_svg/08133.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.607787+00:00"
+  },
+  {
+    "chu": "極",
+    "hanViet": "CỰC",
+    "nghia": "cực; vô cùng; tận cùng",
+    "on": [
+      {
+        "am": "キョク",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "消極的",
+            "hiragana": "しょうきょくてき",
+            "nghia": "thụ động, không chủ động"
+          },
+          {
+            "tu": "積極的",
+            "hiragana": "せっきょくてき",
+            "nghia": "tích cực"
+          },
+          {
+            "tu": "北極",
+            "hiragana": "ほっきょく",
+            "nghia": "Bắc Cực"
+          },
+          {
+            "tu": "極端",
+            "hiragana": "きょくたん",
+            "nghia": "cực đoan"
+          }
+        ]
+      },
+      {
+        "am": "ゴク",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "きわ(める)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "極める",
+            "hiragana": "きわめる",
+            "nghia": "đạt tới tột độ, cực hạn"
+          },
+          {
+            "tu": "極まる",
+            "hiragana": "きわまる",
+            "nghia": "đến cực điểm"
+          },
+          {
+            "tu": "極み",
+            "hiragana": "きわみ",
+            "nghia": "tột cùng"
+          }
+        ]
+      },
+      {
+        "am": "きわ(まる)",
+        "nghia": "",
+        "viDu": []
+      },
+      {
+        "am": "きわ(み)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "木（bộ Mộc/き） + 亟（cấp）",
+    "svg": {
+      "codepoint_hex": "06975",
+      "path": "resources/kanji_svg/06975.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.608917+00:00"
+  },
+  {
+    "chu": "含",
+    "hanViet": "HÀM",
+    "nghia": "chứa đựng, bao gồm; ngậm",
+    "on": [
+      {
+        "am": "ガン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "含有",
+            "hiragana": "がんゆう",
+            "nghia": "chứa, hàm chứa"
+          },
+          {
+            "tu": "含意",
+            "hiragana": "がんい",
+            "nghia": "hàm ý"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "ふく(む)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "含む",
+            "hiragana": "ふくむ",
+            "nghia": "chứa, bao gồm; ngậm (trong miệng)"
+          },
+          {
+            "tu": "含める",
+            "hiragana": "ふくめる",
+            "nghia": "bao gồm, tính cả"
+          }
+        ]
+      },
+      {
+        "am": "ふく(める)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "口（bộ Khẩu/くち） + 今（bộ Kim/いま）",
+    "svg": {
+      "codepoint_hex": "0542b",
+      "path": "resources/kanji_svg/0542b.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.610050+00:00"
+  },
+  {
+    "chu": "蔵",
+    "hanViet": "TÀNG",
+    "nghia": "kho, nhà kho; tàng trữ",
+    "on": [
+      {
+        "am": "ゾウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "冷蔵庫",
+            "hiragana": "れいぞうこ",
+            "nghia": "tủ lạnh"
+          },
+          {
+            "tu": "貯蔵",
+            "hiragana": "ちょぞう",
+            "nghia": "tàng trữ"
+          },
+          {
+            "tu": "収蔵",
+            "hiragana": "しゅうぞう",
+            "nghia": "lưu trữ (tranh, hiện vật)"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "くら",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "蔵",
+            "hiragana": "くら",
+            "nghia": "kho, nhà kho"
+          },
+          {
+            "tu": "土蔵",
+            "hiragana": "どぞう",
+            "nghia": "kho kiểu cũ bằng đất, 土壁"
+          }
+        ]
+      },
+      {
+        "am": "おさ(める)",
+        "nghia": "",
+        "viDu": []
+      },
+      {
+        "am": "おさ(まる)",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "bo": "艹（bộ Thảo/くさかんむり） + 臧（tàng）",
+    "svg": {
+      "codepoint_hex": "08535",
+      "path": "resources/kanji_svg/08535.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.611145+00:00"
+  },
+  {
+    "chu": "量",
+    "hanViet": "LƯỢNG",
+    "nghia": "số lượng; đo lường",
+    "on": [
+      {
+        "am": "リョウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "分量",
+            "hiragana": "ぶんりょう",
+            "nghia": "lượng, khối lượng chia ra"
+          },
+          {
+            "tu": "重量",
+            "hiragana": "じゅうりょう",
+            "nghia": "trọng lượng"
+          },
+          {
+            "tu": "量",
+            "hiragana": "りょう",
+            "nghia": "lượng, số lượng"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "はか(る)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "量る",
+            "hiragana": "はかる",
+            "nghia": "đo (khối lượng, dung tích, v.v.)"
+          }
+        ]
+      }
+    ],
+    "bo": "旦（đán） + 里（lý）",
+    "svg": {
+      "codepoint_hex": "091cf",
+      "path": "resources/kanji_svg/091cf.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.612044+00:00"
+  },
+  {
+    "chu": "型",
+    "hanViet": "HÌNH",
+    "nghia": "khuôn, kiểu; mẫu, loại",
+    "on": [
+      {
+        "am": "ケイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "型式",
+            "hiragana": "かたしき",
+            "nghia": "kiểu dáng, mẫu"
+          },
+          {
+            "tu": "典型的",
+            "hiragana": "てんけいてき",
+            "nghia": "mang tính điển hình"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "かた",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "型",
+            "hiragana": "かた",
+            "nghia": "khuôn, dáng, kiểu mẫu"
+          },
+          {
+            "tu": "新型",
+            "hiragana": "しんがた",
+            "nghia": "mẫu mới, kiểu mới"
+          }
+        ]
+      }
+    ],
+    "bo": "土（bộ Thổ/つち） + 刑（hình）",
+    "svg": {
+      "codepoint_hex": "0578b",
+      "path": "resources/kanji_svg/0578b.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.614139+00:00"
+  },
+  {
+    "chu": "況",
+    "hanViet": "HUỐNG",
+    "nghia": "tình hình; càng (huống chi)",
+    "on": [
+      {
+        "am": "キョウ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "状況",
+            "hiragana": "じょうきょう",
+            "nghia": "tình hình"
+          },
+          {
+            "tu": "事情",
+            "hiragana": "じじょう",
+            "nghia": "tình hình, hoàn cảnh (dùng cùng)"
+          },
+          {
+            "tu": "近況",
+            "hiragana": "きんきょう",
+            "nghia": "tình hình gần đây"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "氵（bộ Thủy/さんずい） + 兄（huynh）",
+    "svg": {
+      "codepoint_hex": "06cc1",
+      "path": "resources/kanji_svg/06cc1.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.615525+00:00"
+  },
+  {
+    "chu": "針",
+    "hanViet": "CHÂM",
+    "nghia": "kim (khâu, đồng hồ, la bàn); mũi kim",
+    "on": [
+      {
+        "am": "シン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "針金",
+            "hiragana": "はりがね",
+            "nghia": "dây thép"
+          },
+          {
+            "tu": "針路",
+            "hiragana": "しんろ",
+            "nghia": "hướng đi (la bàn)"
+          },
+          {
+            "tu": "方針",
+            "hiragana": "ほうしん",
+            "nghia": "phương châm"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "はり",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "針",
+            "hiragana": "はり",
+            "nghia": "kim, kim chỉ (đồng hồ...)"
+          },
+          {
+            "tu": "針仕事",
+            "hiragana": "はりしごと",
+            "nghia": "việc may vá"
+          }
+        ]
+      }
+    ],
+    "bo": "金（bộ Kim/かねへん） + 十（bộ Thập/じゅう）",
+    "svg": {
+      "codepoint_hex": "091dd",
+      "path": "resources/kanji_svg/091dd.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.616319+00:00"
+  },
+  {
+    "chu": "専",
+    "hanViet": "CHUYÊN",
+    "nghia": "chuyên, chỉ; chuyên môn",
+    "on": [
+      {
+        "am": "セン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "専門",
+            "hiragana": "せんもん",
+            "nghia": "chuyên môn"
+          },
+          {
+            "tu": "専攻",
+            "hiragana": "せんこう",
+            "nghia": "chuyên ngành"
+          },
+          {
+            "tu": "専用",
+            "hiragana": "せんよう",
+            "nghia": "dùng riêng, chuyên dụng"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "もっぱ(ら)",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "専ら",
+            "hiragana": "もっぱら",
+            "nghia": "chủ yếu, hầu hết"
+          }
+        ]
+      }
+    ],
+    "bo": "寸（bộ Thốn/すん） + 田（bộ Điền/た） + ユ",
+    "svg": {
+      "codepoint_hex": "05c02",
+      "path": "resources/kanji_svg/05c02.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.617347+00:00"
+  },
+  {
+    "chu": "谷",
+    "hanViet": "CỐC",
+    "nghia": "thung lũng; khe núi",
+    "on": [
+      {
+        "am": "コク",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "渓谷",
+            "hiragana": "けいこく",
+            "nghia": "khe núi, thung lũng hẹp"
+          },
+          {
+            "tu": "谷間",
+            "hiragana": "たにま",
+            "nghia": "khe núi, khe giữa (nghĩa bóng)"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "たに",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "谷",
+            "hiragana": "たに",
+            "nghia": "thung lũng"
+          },
+          {
+            "tu": "山谷",
+            "hiragana": "さんこく／やまたに",
+            "nghia": "núi và thung lũng"
+          }
+        ]
+      }
+    ],
+    "bo": "谷（bộ Cốc/たに）",
+    "svg": {
+      "codepoint_hex": "08c37",
+      "path": "resources/kanji_svg/08c37.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.618207+00:00"
+  },
+  {
+    "chu": "史",
+    "hanViet": "SỬ",
+    "nghia": "lịch sử; ghi chép",
+    "on": [
+      {
+        "am": "シ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "歴史",
+            "hiragana": "れきし",
+            "nghia": "lịch sử"
+          },
+          {
+            "tu": "史上",
+            "hiragana": "しじょう",
+            "nghia": "trong lịch sử"
+          },
+          {
+            "tu": "史料",
+            "hiragana": "しりょう",
+            "nghia": "sử liệu, tư liệu lịch sử"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "中（bộ Trung/なか） + 㐄",
+    "svg": {
+      "codepoint_hex": "053f2",
+      "path": "resources/kanji_svg/053f2.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.618893+00:00"
+  },
+  {
+    "chu": "階",
+    "hanViet": "GIAI",
+    "nghia": "bậc, tầng; giai cấp",
+    "on": [
+      {
+        "am": "カイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "階段",
+            "hiragana": "かいだん",
+            "nghia": "cầu thang"
+          },
+          {
+            "tu": "三階",
+            "hiragana": "さんがい",
+            "nghia": "tầng 3"
+          },
+          {
+            "tu": "段階",
+            "hiragana": "だんかい",
+            "nghia": "giai đoạn, mức độ"
+          }
+        ]
+      }
+    ],
+    "kun": [],
+    "bo": "阝（bộ Phụ/こざとへん） + 皆（giai）",
+    "svg": {
+      "codepoint_hex": "0968e",
+      "path": "resources/kanji_svg/0968e.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.619542+00:00"
+  },
+  {
+    "chu": "管",
+    "hanViet": "QUẢN",
+    "nghia": "ống (nhạc, nước); quản lý",
+    "on": [
+      {
+        "am": "カン",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "管理",
+            "hiragana": "かんり",
+            "nghia": "quản lý"
+          },
+          {
+            "tu": "保管",
+            "hiragana": "ほかん",
+            "nghia": "bảo quản, quản lý giữ gìn"
+          }
+        ]
+      }
+    ],
+    "kun": [
+      {
+        "am": "くだ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "管",
+            "hiragana": "くだ",
+            "nghia": "ống (nước, dây)"
+          },
+          {
+            "tu": "管楽器",
+            "hiragana": "かんがっき",
+            "nghia": "nhạc cụ hơi"
+          }
+        ]
+      }
+    ],
+    "bo": "⺮（bộ Trúc/たけかんむり） + 官（quan）",
+    "svg": {
+      "codepoint_hex": "07ba1",
+      "path": "resources/kanji_svg/07ba1.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.620168+00:00"
+  },
+  {
+    "chu": "兵",
+    "hanViet": "BINH",
+    "nghia": "binh lính; quân",
+    "on": [
+      {
+        "am": "ヘイ",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "兵士",
+            "hiragana": "へいし",
+            "nghia": "binh sĩ"
+          },
+          {
+            "tu": "兵隊",
+            "hiragana": "へいたい",
+            "nghia": "người lính"
+          },
+          {
+            "tu": "自衛隊",
+            "hiragana": "じえいたい",
+            "nghia": "Lực lượng Phòng vệ Nhật"
+          }
+        ]
+      },
+      {
+        "am": "ヒョウ",
+        "nghia": "",
+        "viDu": []
+      }
+    ],
+    "kun": [
+      {
+        "am": "つわもの",
+        "nghia": "",
+        "viDu": [
+          {
+            "tu": "兵",
+            "hiragana": "つわもの",
+            "nghia": "lính, chiến binh (văn chương)"
+          }
+        ]
+      }
+    ],
+    "bo": "斤（bộ Cân/おの） + 八（bộ Bát/はち） + 𠂉",
+    "svg": {
+      "codepoint_hex": "05175",
+      "path": "resources/kanji_svg/05175.svg",
+      "exists": false
+    },
+    "updatedAt": "2026-01-12T12:59:33.620881+00:00"
   }
 ]
