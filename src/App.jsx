@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import KanjiModal from "./components/KanjiModal";
+import AdminPage from "./pages/AdminPage";
 import "./styles.css";
 
 /**
@@ -84,9 +85,7 @@ function normalizeDb(db) {
     // items is a dict keyed by kanji
     if (db.items && typeof db.items === "object") {
       const order = Array.isArray(db.order) ? db.order : Object.keys(db.items);
-      return order
-        .map((k) => normalizeOne(db.items[k], k))
-        .filter(Boolean);
+      return order.map((k) => normalizeOne(db.items[k], k)).filter(Boolean);
     }
   }
 
@@ -97,6 +96,9 @@ export default function App() {
   const [rawDb, setRawDb] = useState(null);
   const [error, setError] = useState("");
   const [selected, setSelected] = useState(null);
+
+  // main | admin
+  const [page, setPage] = useState("main");
 
   useEffect(() => {
     let cancelled = false;
@@ -133,50 +135,83 @@ export default function App() {
     );
   }, [items, q]);
 
+  const openAdmin = () => {
+    setSelected(null);
+    setPage("admin");
+  };
+
+  const backToMain = () => {
+    setPage("main");
+  };
+
   return (
     <div className="appShell">
-      <div className="navBar">
-        <div className="navTitle">Kanji</div>
-      </div>
+      {page === "main" ? (
+        <>
+          <div className="navBar" style={{ display: "flex", alignItems: "center" }}>
+            <div style={{ width: 44 }} />
+            <div className="navTitle" style={{ flex: 1, textAlign: "center" }}>
+              Kanji
+            </div>
 
-      <div className="content">
-        <div className="toolbar">
-          <input
-            className="searchInput"
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            placeholder="Tìm kanji / Hán-Việt..."
-            inputMode="search"
-          />
-          <div className="toolbarMeta">
-            {error ? (
-              <span className="errorText">Lỗi load DB: {error}</span>
-            ) : (
-              <span className="mutedText">{filtered.length} chữ</span>
-            )}
-          </div>
-        </div>
-
-        <div className="grid">
-          {filtered.map((k) => (
             <button
-              key={k.chu}
-              className="kanjiCard"
-              onClick={() => setSelected(k)}
               type="button"
+              onClick={openAdmin}
+              aria-label="Mở trang quản trị"
+              title="Quản trị"
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: 14,
+                border: "1px solid rgba(255,255,255,0.14)",
+                background: "rgba(255,255,255,0.06)",
+                color: "rgba(255,255,255,0.92)",
+                display: "grid",
+                placeItems: "center",
+                cursor: "pointer",
+              }}
             >
-              <div className="kanjiChar">{k.chu}</div>
-              <div className="kanjiHanviet">({k.hanViet || "—"})</div>
+              ⚙
             </button>
-          ))}
-        </div>
-      </div>
+          </div>
 
-      {selected && (
-        <KanjiModal
-          entry={selected}
-          onClose={() => setSelected(null)}
-        />
+          <div className="content">
+            <div className="toolbar">
+              <input
+                className="searchInput"
+                value={q}
+                onChange={(e) => setQ(e.target.value)}
+                placeholder="Tìm kanji / Hán-Việt..."
+                inputMode="search"
+              />
+              <div className="toolbarMeta">
+                {error ? (
+                  <span className="errorText">Lỗi load DB: {error}</span>
+                ) : (
+                  <span className="mutedText">{filtered.length} chữ</span>
+                )}
+              </div>
+            </div>
+
+            <div className="grid">
+              {filtered.map((k) => (
+                <button
+                  key={k.chu}
+                  className="kanjiCard"
+                  onClick={() => setSelected(k)}
+                  type="button"
+                >
+                  <div className="kanjiChar">{k.chu}</div>
+                  <div className="kanjiHanviet">({k.hanViet || "—"})</div>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {selected && <KanjiModal entry={selected} onClose={() => setSelected(null)} />}
+        </>
+      ) : (
+        <AdminPage onBack={backToMain} />
       )}
     </div>
   );
