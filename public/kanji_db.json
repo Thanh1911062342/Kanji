@@ -36155,9 +36155,9 @@
     "svg": {
       "codepoint_hex": "0515a",
       "path": "resources/kanji_svg/0515a.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.556425+00:00"
+    "updatedAt": "2026-01-12T13:07:12.312155+00:00"
   },
   {
     "chu": "的",
@@ -36203,9 +36203,9 @@
     "svg": {
       "codepoint_hex": "07684",
       "path": "resources/kanji_svg/07684.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.557096+00:00"
+    "updatedAt": "2026-01-12T13:07:12.313060+00:00"
   },
   {
     "chu": "協",
@@ -36239,9 +36239,9 @@
     "svg": {
       "codepoint_hex": "05354",
       "path": "resources/kanji_svg/05354.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.557787+00:00"
+    "updatedAt": "2026-01-12T13:07:12.313773+00:00"
   },
   {
     "chu": "総",
@@ -36287,9 +36287,9 @@
     "svg": {
       "codepoint_hex": "07dcf",
       "path": "resources/kanji_svg/07dcf.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.558529+00:00"
+    "updatedAt": "2026-01-12T13:07:12.314481+00:00"
   },
   {
     "chu": "区",
@@ -36323,9 +36323,9 @@
     "svg": {
       "codepoint_hex": "0533a",
       "path": "resources/kanji_svg/0533a.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.559075+00:00"
+    "updatedAt": "2026-01-12T13:07:12.315061+00:00"
   },
   {
     "chu": "領",
@@ -36371,9 +36371,9 @@
     "svg": {
       "codepoint_hex": "09818",
       "path": "resources/kanji_svg/09818.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.559717+00:00"
+    "updatedAt": "2026-01-12T13:07:12.315932+00:00"
   },
   {
     "chu": "県",
@@ -36407,9 +36407,9 @@
     "svg": {
       "codepoint_hex": "0770c",
       "path": "resources/kanji_svg/0770c.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.560422+00:00"
+    "updatedAt": "2026-01-12T13:07:12.316731+00:00"
   },
   {
     "chu": "設",
@@ -36455,9 +36455,9 @@
     "svg": {
       "codepoint_hex": "08a2d",
       "path": "resources/kanji_svg/08a2d.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.561236+00:00"
+    "updatedAt": "2026-01-12T13:07:12.318146+00:00"
   },
   {
     "chu": "改",
@@ -36513,9 +36513,9 @@
     "svg": {
       "codepoint_hex": "06539",
       "path": "resources/kanji_svg/06539.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.562143+00:00"
+    "updatedAt": "2026-01-12T13:07:12.319522+00:00"
   },
   {
     "chu": "府",
@@ -36549,9 +36549,9 @@
     "svg": {
       "codepoint_hex": "05e9c",
       "path": "resources/kanji_svg/05e9c.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.563325+00:00"
+    "updatedAt": "2026-01-12T13:07:12.320437+00:00"
   },
   {
     "chu": "査",
@@ -36585,9 +36585,9 @@
     "svg": {
       "codepoint_hex": "067fb",
       "path": "resources/kanji_svg/067fb.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.564817+00:00"
+    "updatedAt": "2026-01-12T13:07:12.321332+00:00"
   },
   {
     "chu": "委",
@@ -36633,9 +36633,9 @@
     "svg": {
       "codepoint_hex": "059d4",
       "path": "resources/kanji_svg/059d4.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.565912+00:00"
+    "updatedAt": "2026-01-12T13:07:12.322345+00:00"
   },
   {
     "chu": "軍",
@@ -36681,9 +36681,9 @@
     "svg": {
       "codepoint_hex": "08ecd",
       "path": "resources/kanji_svg/08ecd.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.567217+00:00"
+    "updatedAt": "2026-01-12T13:07:12.323602+00:00"
   },
   {
     "chu": "団",
@@ -36722,9 +36722,9 @@
     "svg": {
       "codepoint_hex": "056e3",
       "path": "resources/kanji_svg/056e3.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.568225+00:00"
+    "updatedAt": "2026-01-12T13:07:12.324814+00:00"
   },
   {
     "chu": "各",
@@ -36770,9 +36770,9 @@
     "svg": {
       "codepoint_hex": "05404",
       "path": "resources/kanji_svg/05404.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.569157+00:00"
+    "updatedAt": "2026-01-12T13:07:12.325906+00:00"
   },
   {
     "chu": "島",
@@ -36823,9 +36823,9 @@
     "svg": {
       "codepoint_hex": "05cf6",
       "path": "resources/kanji_svg/05cf6.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.569979+00:00"
+    "updatedAt": "2026-01-12T13:07:12.326998+00:00"
   },
   {
     "chu": "革",
@@ -36876,9 +36876,9 @@
     "svg": {
       "codepoint_hex": "09769",
       "path": "resources/kanji_svg/09769.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.570695+00:00"
+    "updatedAt": "2026-01-12T13:07:12.327955+00:00"
   },
   {
     "chu": "村",
@@ -36924,9 +36924,9 @@
     "svg": {
       "codepoint_hex": "06751",
       "path": "resources/kanji_svg/06751.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.571440+00:00"
+    "updatedAt": "2026-01-12T13:07:12.329307+00:00"
   },
   {
     "chu": "勢",
@@ -36967,9 +36967,9 @@
     "svg": {
       "codepoint_hex": "052e2",
       "path": "resources/kanji_svg/052e2.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.572220+00:00"
+    "updatedAt": "2026-01-12T13:07:12.330352+00:00"
   },
   {
     "chu": "減",
@@ -37020,9 +37020,9 @@
     "svg": {
       "codepoint_hex": "06e1b",
       "path": "resources/kanji_svg/06e1b.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.573333+00:00"
+    "updatedAt": "2026-01-12T13:07:12.331702+00:00"
   },
   {
     "chu": "無",
@@ -37078,9 +37078,9 @@
     "svg": {
       "codepoint_hex": "07121",
       "path": "resources/kanji_svg/07121.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.574130+00:00"
+    "updatedAt": "2026-01-12T13:07:12.332701+00:00"
   },
   {
     "chu": "再",
@@ -37131,9 +37131,9 @@
     "svg": {
       "codepoint_hex": "0518d",
       "path": "resources/kanji_svg/0518d.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.575147+00:00"
+    "updatedAt": "2026-01-12T13:07:12.334490+00:00"
   },
   {
     "chu": "税",
@@ -37167,9 +37167,9 @@
     "svg": {
       "codepoint_hex": "07a0e",
       "path": "resources/kanji_svg/07a0e.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.576327+00:00"
+    "updatedAt": "2026-01-12T13:07:12.335635+00:00"
   },
   {
     "chu": "営",
@@ -37210,9 +37210,9 @@
     "svg": {
       "codepoint_hex": "055b6",
       "path": "resources/kanji_svg/055b6.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.577471+00:00"
+    "updatedAt": "2026-01-12T13:07:12.337668+00:00"
   },
   {
     "chu": "可",
@@ -37246,9 +37246,9 @@
     "svg": {
       "codepoint_hex": "053ef",
       "path": "resources/kanji_svg/053ef.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.578295+00:00"
+    "updatedAt": "2026-01-12T13:07:12.338901+00:00"
   },
   {
     "chu": "身",
@@ -37299,9 +37299,9 @@
     "svg": {
       "codepoint_hex": "08eab",
       "path": "resources/kanji_svg/08eab.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.579306+00:00"
+    "updatedAt": "2026-01-12T13:07:12.339985+00:00"
   },
   {
     "chu": "比",
@@ -37347,9 +37347,9 @@
     "svg": {
       "codepoint_hex": "06bd4",
       "path": "resources/kanji_svg/06bd4.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.580380+00:00"
+    "updatedAt": "2026-01-12T13:07:12.340967+00:00"
   },
   {
     "chu": "防",
@@ -37395,9 +37395,9 @@
     "svg": {
       "codepoint_hex": "09632",
       "path": "resources/kanji_svg/09632.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.581469+00:00"
+    "updatedAt": "2026-01-12T13:07:12.341818+00:00"
   },
   {
     "chu": "補",
@@ -37443,9 +37443,9 @@
     "svg": {
       "codepoint_hex": "088dc",
       "path": "resources/kanji_svg/088dc.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.582392+00:00"
+    "updatedAt": "2026-01-12T13:07:12.342870+00:00"
   },
   {
     "chu": "境",
@@ -37496,9 +37496,9 @@
     "svg": {
       "codepoint_hex": "05883",
       "path": "resources/kanji_svg/05883.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.583127+00:00"
+    "updatedAt": "2026-01-12T13:07:12.343957+00:00"
   },
   {
     "chu": "導",
@@ -37544,9 +37544,9 @@
     "svg": {
       "codepoint_hex": "05c0e",
       "path": "resources/kanji_svg/05c0e.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.584061+00:00"
+    "updatedAt": "2026-01-12T13:07:12.345210+00:00"
   },
   {
     "chu": "副",
@@ -37580,9 +37580,9 @@
     "svg": {
       "codepoint_hex": "0526f",
       "path": "resources/kanji_svg/0526f.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.584776+00:00"
+    "updatedAt": "2026-01-12T13:07:12.346134+00:00"
   },
   {
     "chu": "算",
@@ -37616,9 +37616,9 @@
     "svg": {
       "codepoint_hex": "07b97",
       "path": "resources/kanji_svg/07b97.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.585411+00:00"
+    "updatedAt": "2026-01-12T13:07:12.347428+00:00"
   },
   {
     "chu": "輸",
@@ -37652,9 +37652,9 @@
     "svg": {
       "codepoint_hex": "08f38",
       "path": "resources/kanji_svg/08f38.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.586078+00:00"
+    "updatedAt": "2026-01-12T13:07:12.348496+00:00"
   },
   {
     "chu": "述",
@@ -37700,9 +37700,9 @@
     "svg": {
       "codepoint_hex": "08ff0",
       "path": "resources/kanji_svg/08ff0.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.586829+00:00"
+    "updatedAt": "2026-01-12T13:07:12.350125+00:00"
   },
   {
     "chu": "線",
@@ -37736,9 +37736,9 @@
     "svg": {
       "codepoint_hex": "07dda",
       "path": "resources/kanji_svg/07dda.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.587605+00:00"
+    "updatedAt": "2026-01-12T13:07:12.351321+00:00"
   },
   {
     "chu": "農",
@@ -37772,9 +37772,9 @@
     "svg": {
       "codepoint_hex": "08fb2",
       "path": "resources/kanji_svg/08fb2.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.588523+00:00"
+    "updatedAt": "2026-01-12T13:07:12.352187+00:00"
   },
   {
     "chu": "州",
@@ -37820,9 +37820,9 @@
     "svg": {
       "codepoint_hex": "05dde",
       "path": "resources/kanji_svg/05dde.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.589381+00:00"
+    "updatedAt": "2026-01-12T13:07:12.353222+00:00"
   },
   {
     "chu": "武",
@@ -37873,9 +37873,9 @@
     "svg": {
       "codepoint_hex": "06b66",
       "path": "resources/kanji_svg/06b66.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.590029+00:00"
+    "updatedAt": "2026-01-12T13:07:12.354167+00:00"
   },
   {
     "chu": "象",
@@ -37931,9 +37931,9 @@
     "svg": {
       "codepoint_hex": "08c61",
       "path": "resources/kanji_svg/08c61.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.591621+00:00"
+    "updatedAt": "2026-01-12T13:07:12.355671+00:00"
   },
   {
     "chu": "域",
@@ -37967,9 +37967,9 @@
     "svg": {
       "codepoint_hex": "057df",
       "path": "resources/kanji_svg/057df.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.592295+00:00"
+    "updatedAt": "2026-01-12T13:07:12.356778+00:00"
   },
   {
     "chu": "額",
@@ -38015,9 +38015,9 @@
     "svg": {
       "codepoint_hex": "0984d",
       "path": "resources/kanji_svg/0984d.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.592958+00:00"
+    "updatedAt": "2026-01-12T13:07:12.357705+00:00"
   },
   {
     "chu": "欧",
@@ -38051,9 +38051,9 @@
     "svg": {
       "codepoint_hex": "06b27",
       "path": "resources/kanji_svg/06b27.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.593803+00:00"
+    "updatedAt": "2026-01-12T13:07:12.358465+00:00"
   },
   {
     "chu": "担",
@@ -38104,9 +38104,9 @@
     "svg": {
       "codepoint_hex": "062c5",
       "path": "resources/kanji_svg/062c5.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.594734+00:00"
+    "updatedAt": "2026-01-12T13:07:12.359271+00:00"
   },
   {
     "chu": "準",
@@ -38140,9 +38140,9 @@
     "svg": {
       "codepoint_hex": "06e96",
       "path": "resources/kanji_svg/06e96.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.595617+00:00"
+    "updatedAt": "2026-01-12T13:07:12.360148+00:00"
   },
   {
     "chu": "賞",
@@ -38176,9 +38176,9 @@
     "svg": {
       "codepoint_hex": "08cde",
       "path": "resources/kanji_svg/08cde.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.596654+00:00"
+    "updatedAt": "2026-01-12T13:07:12.360938+00:00"
   },
   {
     "chu": "辺",
@@ -38234,9 +38234,9 @@
     "svg": {
       "codepoint_hex": "08fba",
       "path": "resources/kanji_svg/08fba.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.598035+00:00"
+    "updatedAt": "2026-01-12T13:07:12.362041+00:00"
   },
   {
     "chu": "造",
@@ -38282,9 +38282,9 @@
     "svg": {
       "codepoint_hex": "09020",
       "path": "resources/kanji_svg/09020.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.599263+00:00"
+    "updatedAt": "2026-01-12T13:07:12.362796+00:00"
   },
   {
     "chu": "被",
@@ -38340,9 +38340,9 @@
     "svg": {
       "codepoint_hex": "088ab",
       "path": "resources/kanji_svg/088ab.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.600245+00:00"
+    "updatedAt": "2026-01-12T13:07:12.363462+00:00"
   },
   {
     "chu": "技",
@@ -38393,9 +38393,9 @@
     "svg": {
       "codepoint_hex": "06280",
       "path": "resources/kanji_svg/06280.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.601625+00:00"
+    "updatedAt": "2026-01-12T13:07:12.364047+00:00"
   },
   {
     "chu": "低",
@@ -38461,9 +38461,9 @@
     "svg": {
       "codepoint_hex": "04f4e",
       "path": "resources/kanji_svg/04f4e.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.602682+00:00"
+    "updatedAt": "2026-01-12T13:07:12.364781+00:00"
   },
   {
     "chu": "復",
@@ -38514,9 +38514,9 @@
     "svg": {
       "codepoint_hex": "05fa9",
       "path": "resources/kanji_svg/05fa9.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.603657+00:00"
+    "updatedAt": "2026-01-12T13:07:12.365451+00:00"
   },
   {
     "chu": "移",
@@ -38572,9 +38572,9 @@
     "svg": {
       "codepoint_hex": "079fb",
       "path": "resources/kanji_svg/079fb.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.604736+00:00"
+    "updatedAt": "2026-01-12T13:07:12.367072+00:00"
   },
   {
     "chu": "個",
@@ -38608,9 +38608,9 @@
     "svg": {
       "codepoint_hex": "0500b",
       "path": "resources/kanji_svg/0500b.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.605769+00:00"
+    "updatedAt": "2026-01-12T13:07:12.368523+00:00"
   },
   {
     "chu": "門",
@@ -38656,9 +38656,9 @@
     "svg": {
       "codepoint_hex": "09580",
       "path": "resources/kanji_svg/09580.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.606381+00:00"
+    "updatedAt": "2026-01-12T13:07:12.369326+00:00"
   },
   {
     "chu": "課",
@@ -38692,9 +38692,9 @@
     "svg": {
       "codepoint_hex": "08ab2",
       "path": "resources/kanji_svg/08ab2.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.607069+00:00"
+    "updatedAt": "2026-01-12T13:07:12.370143+00:00"
   },
   {
     "chu": "脳",
@@ -38728,9 +38728,9 @@
     "svg": {
       "codepoint_hex": "08133",
       "path": "resources/kanji_svg/08133.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.607787+00:00"
+    "updatedAt": "2026-01-12T13:07:12.370916+00:00"
   },
   {
     "chu": "極",
@@ -38806,9 +38806,9 @@
     "svg": {
       "codepoint_hex": "06975",
       "path": "resources/kanji_svg/06975.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.608917+00:00"
+    "updatedAt": "2026-01-12T13:07:12.372092+00:00"
   },
   {
     "chu": "含",
@@ -38859,9 +38859,9 @@
     "svg": {
       "codepoint_hex": "0542b",
       "path": "resources/kanji_svg/0542b.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.610050+00:00"
+    "updatedAt": "2026-01-12T13:07:12.373128+00:00"
   },
   {
     "chu": "蔵",
@@ -38922,9 +38922,9 @@
     "svg": {
       "codepoint_hex": "08535",
       "path": "resources/kanji_svg/08535.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.611145+00:00"
+    "updatedAt": "2026-01-12T13:07:12.374073+00:00"
   },
   {
     "chu": "量",
@@ -38970,9 +38970,9 @@
     "svg": {
       "codepoint_hex": "091cf",
       "path": "resources/kanji_svg/091cf.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.612044+00:00"
+    "updatedAt": "2026-01-12T13:07:12.374837+00:00"
   },
   {
     "chu": "型",
@@ -39018,9 +39018,9 @@
     "svg": {
       "codepoint_hex": "0578b",
       "path": "resources/kanji_svg/0578b.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.614139+00:00"
+    "updatedAt": "2026-01-12T13:07:12.375508+00:00"
   },
   {
     "chu": "況",
@@ -39054,9 +39054,9 @@
     "svg": {
       "codepoint_hex": "06cc1",
       "path": "resources/kanji_svg/06cc1.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.615525+00:00"
+    "updatedAt": "2026-01-12T13:07:12.376116+00:00"
   },
   {
     "chu": "針",
@@ -39107,9 +39107,9 @@
     "svg": {
       "codepoint_hex": "091dd",
       "path": "resources/kanji_svg/091dd.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.616319+00:00"
+    "updatedAt": "2026-01-12T13:07:12.376768+00:00"
   },
   {
     "chu": "専",
@@ -39155,9 +39155,9 @@
     "svg": {
       "codepoint_hex": "05c02",
       "path": "resources/kanji_svg/05c02.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.617347+00:00"
+    "updatedAt": "2026-01-12T13:07:12.377380+00:00"
   },
   {
     "chu": "谷",
@@ -39203,9 +39203,9 @@
     "svg": {
       "codepoint_hex": "08c37",
       "path": "resources/kanji_svg/08c37.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.618207+00:00"
+    "updatedAt": "2026-01-12T13:07:12.378343+00:00"
   },
   {
     "chu": "史",
@@ -39239,9 +39239,9 @@
     "svg": {
       "codepoint_hex": "053f2",
       "path": "resources/kanji_svg/053f2.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.618893+00:00"
+    "updatedAt": "2026-01-12T13:07:12.378998+00:00"
   },
   {
     "chu": "階",
@@ -39275,9 +39275,9 @@
     "svg": {
       "codepoint_hex": "0968e",
       "path": "resources/kanji_svg/0968e.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.619542+00:00"
+    "updatedAt": "2026-01-12T13:07:12.379845+00:00"
   },
   {
     "chu": "管",
@@ -39323,9 +39323,9 @@
     "svg": {
       "codepoint_hex": "07ba1",
       "path": "resources/kanji_svg/07ba1.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.620168+00:00"
+    "updatedAt": "2026-01-12T13:07:12.380664+00:00"
   },
   {
     "chu": "兵",
@@ -39376,8 +39376,8 @@
     "svg": {
       "codepoint_hex": "05175",
       "path": "resources/kanji_svg/05175.svg",
-      "exists": false
+      "exists": true
     },
-    "updatedAt": "2026-01-12T12:59:33.620881+00:00"
+    "updatedAt": "2026-01-12T13:07:12.381313+00:00"
   }
 ]
